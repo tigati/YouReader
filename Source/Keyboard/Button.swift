@@ -14,7 +14,11 @@ final class Button: SwelmView {
     
     private lazy var button: UIButton = {
         let button = UIButton()
-        button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
+        button.setTitleColor(Palette.primaryText, for: .normal)
+        button.titleLabel?.font = UIFont(name: "GillSans", size: 60)
+//        button.setBackgroundImage(UIImage(named: "button-normal"), for: .normal)
+//        button.setBackgroundImage(UIImage(named: "button-pressed"), for: .highlighted)
+        button.addTarget(self, action: #selector(buttonTapped), for: .touchDown)
         return button
     }()
     
@@ -35,7 +39,7 @@ final class Button: SwelmView {
 }
 
 extension Button {
-    struct Props {
+    struct Props: Equatable {
         let text: String
         let onTap: UICommand
         

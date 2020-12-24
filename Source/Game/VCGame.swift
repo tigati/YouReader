@@ -6,4 +6,10 @@ final class GameVC: SwelmViewController<GameView.Props, GameView> {
         v.props = props
     }
     
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
 }
+
+

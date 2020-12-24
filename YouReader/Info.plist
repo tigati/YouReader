@@ -43,5 +43,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Wes.ttf</string>
+		<string>Lumberjack.otf</string>
+		<string>Matias.ttf</string>
+	</array>
 </dict>
 </plist>

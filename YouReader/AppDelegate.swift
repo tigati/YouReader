@@ -13,6 +13,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     let vc = GameVC()
+    
+    var store = Store<GamePage.State, GamePage.Event, GamePage.Effect>.init(
+        reducer: GamePage.reducer,
+        initialState: .data,
+        effectPerformer: GamePage.processEffect,
+        effects: []
+    )
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
@@ -23,34 +30,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         
         
+        store.subscribe { state, dispatch in
+            self.vc.props = GamePage.mapState(state, dispatch: dispatch)
+        }
+        
+        for family in UIFont.familyNames.sorted() {
+            let names = UIFont.fontNames(forFamilyName: family)
+            print("Family: \(family) Font names: \(names)")
+        }
         
         
-        // Override point for customization after application launch.
         return true
     }
 
 }
-
-//extension GamePage.State.Play {
-//    static let data = GamePage.State.Play(
-//        currentRound: .init(
-//            word: <#T##String#>,
-//            image: <#T##ImageFilename#>,
-//            parts: <#T##[WordPart]#>
-//        ),
-//        log: <#T##String#>,
-//        nextRounds: <#T##[GamePage.State.Round]#>
-//    )
-//}
-//
-//extension GamePage.State.Round {
-//    
-//    static let first = GamePage.State.Round(
-//        word: "машина",
-//        image: "",
-//        parts: [
-//            .init(text: "ма", sound: <#T##SoundFilename#>)
-//        ]
-//    )
-//    
-//}

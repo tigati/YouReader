@@ -13,6 +13,7 @@ final class KeyboardView: SwelmView {
         let stackView = UIStackView()
         stackView.axis = .horizontal
         stackView.distribution = .fillEqually
+        stackView.spacing = 2
         stackView.addArrangedSubview(firstButton)
         stackView.addArrangedSubview(secondButton)
         stackView.addArrangedSubview(thirdButton)
@@ -40,16 +41,36 @@ final class KeyboardView: SwelmView {
 extension KeyboardView {
     
     private func render(props: Props) {
-        firstButton.props = props.first ?? .initial
-        secondButton.props = props.second ?? .initial
-        thirdButton.props = props.third ?? .initial
-        fourthButton.props = props.fourth ?? .initial
+        firstButton.isHidden = true
+        secondButton.isHidden = true
+        thirdButton.isHidden = true
+        fourthButton.isHidden = true
+        
+        if let first = props.first {
+            firstButton.props = first
+            firstButton.isHidden = false
+        }
+        
+        if let second = props.second {
+            secondButton.props = second
+            secondButton.isHidden = false
+        }
+        
+        if let third = props.third {
+            thirdButton.props = third
+            thirdButton.isHidden = false
+        }
+        
+        if let fourth = props.fourth {
+            fourthButton.props = fourth
+            fourthButton.isHidden = false
+        }
     }
     
 }
 
 extension KeyboardView {
-    struct Props {
+    struct Props: Equatable {
         let first: Button.Props?
         let second: Button.Props?
         let third: Button.Props?

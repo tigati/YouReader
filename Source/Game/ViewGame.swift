@@ -1,22 +1,9 @@
-import SnapKit
 import UIKit
+import DifferenceKit
 
 final class GameView: SwelmView {
     
-    private let imageView = UIImageView()
-    private lazy var typeLabel: UILabel = {
-        let label = UILabel()
-        label.font = UIFont.boldSystemFont(ofSize: 40)
-        return label
-    }()
-    private lazy var dummyLabel: UILabel = {
-        let label = UILabel()
-        label.text = "TEXT"
-        label.font = UIFont.boldSystemFont(ofSize: 40)
-        label.isHidden = true
-        return label
-    }()
-    private let keyboardView = KeyboardView()
+    static let cellID = "Cell"
     
     var props: Props = .initial {
         didSet {
@@ -24,63 +11,98 @@ final class GameView: SwelmView {
         }
     }
     
-    override func addSubviews() {
-        addSubview(imageView)
-        addSubview(typeLabel)
-        addSubview(keyboardView)
-        addSubview(dummyLabel)
+    private var pages: [PageView.Props] = []
+    
+    lazy var collectionView: UICollectionView = {
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .horizontal
+        let view = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        view.register(PageViewCell.self, forCellWithReuseIdentifier: Self.cellID)
+        view.delegate = self
+        view.isPagingEnabled = true
+        view.dataSource = self
         
-        imageView.backgroundColor = .yellow
-        typeLabel.backgroundColor = .green
+        return view
+    }()
+    
+    override func addSubviews() {
+        addSubview(collectionView)
     }
     
     override func makeConstraints() {
-        imageView.snp.makeConstraints { make in
-            make.top.equalTo(safeAreaLayoutGuide.snp.top).inset(Size.m)
-            make.leading.trailing.equalToSuperview().inset(Size.m)
-        }
-        
-        dummyLabel.snp.makeConstraints { make in
-            make.top.equalTo(imageView.snp.bottom).offset(Size.l)
-            make.leading.trailing.equalToSuperview().inset(Size.m)
-            make.bottom.equalTo(keyboardView.snp.top).offset(Size.l)
-        }
-        
-        typeLabel.snp.makeConstraints { make in
-            make.edges.equalTo(dummyLabel)
-        }
-        
-        keyboardView.snp.makeConstraints { make in
-            make.bottom.equalTo(safeAreaLayoutGuide.snp.bottom).inset(Size.l)
-            make.leading.trailing.equalToSuperview().inset(Size.m)
-            make.height.equalTo(200)
+        collectionView.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
         }
     }
     
-    override func setup() {
-        backgroundColor = Palette.background
-        
-    }
 }
 
 extension GameView {
-    func render(props: Props) {
-        imageView.image = UIImage.init(named: props.image)
-        typeLabel.text = props.type
-        keyboardView.props = props.keyboard
+    private func render(props: Props) {
+        let changeset = StagedChangeset(source: pages, target: props.pages)
+        UIView.animate(withDuration: 0) {
+            self.collectionView.reload(using: changeset) { data in
+                self.pages = props.pages
+            }
+        }
+        
     }
 }
 
 extension GameView {
     struct Props {
-        let image: ImageFilename
-        let type: String
-        let keyboard: KeyboardView.Props
+        let pages: [PageView.Props]
+        let didScroll: UICommandWith<Int>
         
-        static let initial = Props(
-            image: .empty,
-            type: .empty,
-            keyboard: .initial
-        )
+        static let initial = Props(pages: [], didScroll: .nop)
     }
+}
+
+extension GameView: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        collectionView.bounds.size
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        0
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        0
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        .zero
+    }
+}
+
+extension GameView: UIScrollViewDelegate {
+    public func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let pageWidth = scrollView.bounds.size.width
+        let currentPage = scrollView.contentOffset.x / pageWidth
+        if floor(currentPage) == currentPage {
+            props.didScroll.perform(with: Int(floor(currentPage)))
+        }
+    }
+}
+
+extension GameView: UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return pages.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard
+            let page = pages[safe: indexPath.row],
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: Self.cellID, for: indexPath) as? PageViewCell
+        else {
+            fatalError("PAGE NOT FOUND")
+        }
+        
+        
+        cell.pageView.props = page
+        return cell
+    }
+    
+    
 }

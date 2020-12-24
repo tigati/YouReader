@@ -15,6 +15,22 @@
 		3931929C25840B7C006F40FC /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3931929B25840B7C006F40FC /* Array+Extensions.swift */; };
 		393192A025840C4D006F40FC /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3931929F25840C4D006F40FC /* Functional.swift */; };
 		393192A325840F82006F40FC /* Curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393192A225840F82006F40FC /* Curry.swift */; };
+		393192A62584174B006F40FC /* GameTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393192A52584174B006F40FC /* GameTestData.swift */; };
+		393192AE25868762006F40FC /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393192AD25868762006F40FC /* AudioPlayer.swift */; };
+		393192B02586898D006F40FC /* limon-li.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 393192A9258686A2006F40FC /* limon-li.m4a */; };
+		393192B225868990006F40FC /* limon.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 393192AA258686A2006F40FC /* limon.m4a */; };
+		393192B325868990006F40FC /* limon-mon.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 393192AB258686A2006F40FC /* limon-mon.m4a */; };
+		393192B625868EAF006F40FC /* limon-li.caf in Resources */ = {isa = PBXBuildFile; fileRef = 393192B525868EAE006F40FC /* limon-li.caf */; };
+		393192C325869182006F40FC /* luna.caf in Resources */ = {isa = PBXBuildFile; fileRef = 393192BC2586912C006F40FC /* luna.caf */; };
+		393192C425869182006F40FC /* luzha-zha.caf in Resources */ = {isa = PBXBuildFile; fileRef = 393192BA2586912C006F40FC /* luzha-zha.caf */; };
+		393192C525869182006F40FC /* luna-lu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 393192B92586912C006F40FC /* luna-lu.caf */; };
+		393192C625869182006F40FC /* luzha.caf in Resources */ = {isa = PBXBuildFile; fileRef = 393192BB2586912C006F40FC /* luzha.caf */; };
+		393192C725869182006F40FC /* luna-na.caf in Resources */ = {isa = PBXBuildFile; fileRef = 393192B82586912C006F40FC /* luna-na.caf */; };
+		393192C825869182006F40FC /* luzha-lu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 393192BD2586912C006F40FC /* luzha-lu.caf */; };
+		393192C925869182006F40FC /* lebed'-be.caf in Resources */ = {isa = PBXBuildFile; fileRef = 393192BE25869137006F40FC /* lebed'-be.caf */; };
+		393192CA25869182006F40FC /* lebed'-d'.caf in Resources */ = {isa = PBXBuildFile; fileRef = 393192C025869138006F40FC /* lebed'-d'.caf */; };
+		393192CB25869182006F40FC /* lebed'.caf in Resources */ = {isa = PBXBuildFile; fileRef = 393192C125869138006F40FC /* lebed'.caf */; };
+		393192CC25869182006F40FC /* lebed'-le.caf in Resources */ = {isa = PBXBuildFile; fileRef = 393192BF25869137006F40FC /* lebed'-le.caf */; };
 		396131D8258280770084D54E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396131D7258280770084D54E /* AppDelegate.swift */; };
 		396131DA258280770084D54E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396131D9258280770084D54E /* SceneDelegate.swift */; };
 		396131DC258280770084D54E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396131DB258280770084D54E /* ViewController.swift */; };
@@ -22,7 +38,7 @@
 		396131E42582807A0084D54E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396131E22582807A0084D54E /* LaunchScreen.storyboard */; };
 		396131EE2582901D0084D54E /* PageGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396131ED2582901D0084D54E /* PageGame.swift */; };
 		396131F1258290A40084D54E /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396131F0258290A40084D54E /* Common.swift */; };
-		396131F62582F7CC0084D54E /* ViewGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396131F52582F7CC0084D54E /* ViewGame.swift */; };
+		396131F62582F7CC0084D54E /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396131F52582F7CC0084D54E /* PageView.swift */; };
 		396131FB2582F9400084D54E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 396131FA2582F9400084D54E /* SnapKit */; };
 		396132032582FA3E0084D54E /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396131FE2582FA3D0084D54E /* Screen.swift */; };
 		396132042582FA3E0084D54E /* ScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396131FF2582FA3E0084D54E /* ScreenManager.swift */; };
@@ -32,6 +48,12 @@
 		3961320B25834F320084D54E /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961320A25834F320084D54E /* KeyboardView.swift */; };
 		3961320E25834F9C0084D54E /* UICommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961320D25834F9C0084D54E /* UICommand.swift */; };
 		39613211258350E50084D54E /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39613210258350E50084D54E /* Button.swift */; };
+		396965E32588020A004903FA /* ViewGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396965E22588020A004903FA /* ViewGame.swift */; };
+		396965EA25880C21004903FA /* Wes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 396965E925880C21004903FA /* Wes.ttf */; };
+		396965ED25880C4F004903FA /* Lumberjack.otf in Resources */ = {isa = PBXBuildFile; fileRef = 396965EC25880C4F004903FA /* Lumberjack.otf */; };
+		396965F025880C68004903FA /* Matias.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 396965EF25880C68004903FA /* Matias.ttf */; };
+		396965F425892761004903FA /* DifferenceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 396965F325892761004903FA /* DifferenceKit */; };
+		39F540692593CD9C002985A3 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F540682593CD9C002985A3 /* Parser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +65,22 @@
 		3931929B25840B7C006F40FC /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		3931929F25840C4D006F40FC /* Functional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functional.swift; sourceTree = "<group>"; };
 		393192A225840F82006F40FC /* Curry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curry.swift; sourceTree = "<group>"; };
+		393192A52584174B006F40FC /* GameTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTestData.swift; sourceTree = "<group>"; };
+		393192A9258686A2006F40FC /* limon-li.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "limon-li.m4a"; sourceTree = "<group>"; };
+		393192AA258686A2006F40FC /* limon.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = limon.m4a; sourceTree = "<group>"; };
+		393192AB258686A2006F40FC /* limon-mon.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "limon-mon.m4a"; sourceTree = "<group>"; };
+		393192AD25868762006F40FC /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		393192B525868EAE006F40FC /* limon-li.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "limon-li.caf"; sourceTree = "<group>"; };
+		393192B82586912C006F40FC /* luna-na.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "luna-na.caf"; sourceTree = "<group>"; };
+		393192B92586912C006F40FC /* luna-lu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "luna-lu.caf"; sourceTree = "<group>"; };
+		393192BA2586912C006F40FC /* luzha-zha.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "luzha-zha.caf"; sourceTree = "<group>"; };
+		393192BB2586912C006F40FC /* luzha.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = luzha.caf; sourceTree = "<group>"; };
+		393192BC2586912C006F40FC /* luna.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = luna.caf; sourceTree = "<group>"; };
+		393192BD2586912C006F40FC /* luzha-lu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "luzha-lu.caf"; sourceTree = "<group>"; };
+		393192BE25869137006F40FC /* lebed'-be.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lebed'-be.caf"; sourceTree = "<group>"; };
+		393192BF25869137006F40FC /* lebed'-le.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lebed'-le.caf"; sourceTree = "<group>"; };
+		393192C025869138006F40FC /* lebed'-d'.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lebed'-d'.caf"; sourceTree = "<group>"; };
+		393192C125869138006F40FC /* lebed'.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lebed'.caf"; sourceTree = "<group>"; };
 		396131D4258280770084D54E /* YouReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		396131D7258280770084D54E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		396131D9258280770084D54E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +90,7 @@
 		396131E52582807A0084D54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		396131ED2582901D0084D54E /* PageGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageGame.swift; sourceTree = "<group>"; };
 		396131F0258290A40084D54E /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
-		396131F52582F7CC0084D54E /* ViewGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGame.swift; sourceTree = "<group>"; };
+		396131F52582F7CC0084D54E /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		396131FE2582FA3D0084D54E /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 		396131FF2582FA3E0084D54E /* ScreenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenManager.swift; sourceTree = "<group>"; };
 		396132002582FA3E0084D54E /* Reader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reader.swift; sourceTree = "<group>"; };
@@ -61,6 +99,12 @@
 		3961320A25834F320084D54E /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 		3961320D25834F9C0084D54E /* UICommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICommand.swift; sourceTree = "<group>"; };
 		39613210258350E50084D54E /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		396965E22588020A004903FA /* ViewGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGame.swift; sourceTree = "<group>"; };
+		396965E925880C21004903FA /* Wes.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Wes.ttf; sourceTree = "<group>"; };
+		396965EC25880C4F004903FA /* Lumberjack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lumberjack.otf; sourceTree = "<group>"; };
+		396965EF25880C68004903FA /* Matias.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Matias.ttf; sourceTree = "<group>"; };
+		39F5406725928CA2002985A3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		39F540682593CD9C002985A3 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				396965F425892761004903FA /* DifferenceKit in Frameworks */,
 				396131FB2582F9400084D54E /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,9 +148,42 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		393192A825868688006F40FC /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				393192BE25869137006F40FC /* lebed'-be.caf */,
+				393192C025869138006F40FC /* lebed'-d'.caf */,
+				393192BF25869137006F40FC /* lebed'-le.caf */,
+				393192C125869138006F40FC /* lebed'.caf */,
+				393192B92586912C006F40FC /* luna-lu.caf */,
+				393192B82586912C006F40FC /* luna-na.caf */,
+				393192BC2586912C006F40FC /* luna.caf */,
+				393192BD2586912C006F40FC /* luzha-lu.caf */,
+				393192BA2586912C006F40FC /* luzha-zha.caf */,
+				393192BB2586912C006F40FC /* luzha.caf */,
+				393192B525868EAE006F40FC /* limon-li.caf */,
+				393192A9258686A2006F40FC /* limon-li.m4a */,
+				393192AB258686A2006F40FC /* limon-mon.m4a */,
+				393192AA258686A2006F40FC /* limon.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		393192AC258686E3006F40FC /* Audioplayer */ = {
+			isa = PBXGroup;
+			children = (
+				393192AD25868762006F40FC /* AudioPlayer.swift */,
+			);
+			path = Audioplayer;
+			sourceTree = "<group>";
+		};
 		396131CB258280770084D54E = {
 			isa = PBXGroup;
 			children = (
+				39F5406725928CA2002985A3 /* README.md */,
+				396965E825880C0F004903FA /* Fonts */,
+				393192AC258686E3006F40FC /* Audioplayer */,
+				393192A825868688006F40FC /* Sounds */,
 				392EC16C2584022B00F1AB4B /* Style */,
 				392EC1642583F07000F1AB4B /* Extensions */,
 				396131FD2582FA340084D54E /* Swelm */,
@@ -143,6 +221,7 @@
 				3961320925834F140084D54E /* Keyboard */,
 				396131F42582F7B40084D54E /* Game */,
 				396131F0258290A40084D54E /* Common.swift */,
+				39F540682593CD9C002985A3 /* Parser.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -151,8 +230,10 @@
 			isa = PBXGroup;
 			children = (
 				396131ED2582901D0084D54E /* PageGame.swift */,
-				396131F52582F7CC0084D54E /* ViewGame.swift */,
+				396965E22588020A004903FA /* ViewGame.swift */,
 				392EC1682583FEF600F1AB4B /* VCGame.swift */,
+				396131F52582F7CC0084D54E /* PageView.swift */,
+				393192A52584174B006F40FC /* GameTestData.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -179,6 +260,16 @@
 			path = Keyboard;
 			sourceTree = "<group>";
 		};
+		396965E825880C0F004903FA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				396965E925880C21004903FA /* Wes.ttf */,
+				396965EC25880C4F004903FA /* Lumberjack.otf */,
+				396965EF25880C68004903FA /* Matias.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,6 +288,7 @@
 			name = YouReader;
 			packageProductDependencies = (
 				396131FA2582F9400084D54E /* SnapKit */,
+				396965F325892761004903FA /* DifferenceKit */,
 			);
 			productName = YouReader;
 			productReference = 396131D4258280770084D54E /* YouReader.app */;
@@ -227,6 +319,7 @@
 			mainGroup = 396131CB258280770084D54E;
 			packageReferences = (
 				396131F92582F9400084D54E /* XCRemoteSwiftPackageReference "SnapKit" */,
+				396965F225892761004903FA /* XCRemoteSwiftPackageReference "DifferenceKit" */,
 			);
 			productRefGroup = 396131D5258280770084D54E /* Products */;
 			projectDirPath = "";
@@ -242,8 +335,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				393192C325869182006F40FC /* luna.caf in Resources */,
+				393192C425869182006F40FC /* luzha-zha.caf in Resources */,
+				393192C825869182006F40FC /* luzha-lu.caf in Resources */,
+				393192C925869182006F40FC /* lebed'-be.caf in Resources */,
+				393192C725869182006F40FC /* luna-na.caf in Resources */,
+				393192B225868990006F40FC /* limon.m4a in Resources */,
+				393192CC25869182006F40FC /* lebed'-le.caf in Resources */,
 				396131E42582807A0084D54E /* LaunchScreen.storyboard in Resources */,
+				393192B325868990006F40FC /* limon-mon.m4a in Resources */,
+				393192C625869182006F40FC /* luzha.caf in Resources */,
+				396965F025880C68004903FA /* Matias.ttf in Resources */,
+				393192B625868EAF006F40FC /* limon-li.caf in Resources */,
+				393192C525869182006F40FC /* luna-lu.caf in Resources */,
+				393192CB25869182006F40FC /* lebed'.caf in Resources */,
+				396965EA25880C21004903FA /* Wes.ttf in Resources */,
+				393192B02586898D006F40FC /* limon-li.m4a in Resources */,
+				393192CA25869182006F40FC /* lebed'-d'.caf in Resources */,
 				396131E12582807A0084D54E /* Assets.xcassets in Resources */,
+				396965ED25880C4F004903FA /* Lumberjack.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +368,7 @@
 				396132042582FA3E0084D54E /* ScreenManager.swift in Sources */,
 				396131F1258290A40084D54E /* Common.swift in Sources */,
 				393192982584084B006F40FC /* App.swift in Sources */,
+				39F540692593CD9C002985A3 /* Parser.swift in Sources */,
 				392EC1722584025200F1AB4B /* Palette.swift in Sources */,
 				396132052582FA3E0084D54E /* Reader.swift in Sources */,
 				392EC16E2584023900F1AB4B /* Size.swift in Sources */,
@@ -265,16 +376,19 @@
 				396131DC258280770084D54E /* ViewController.swift in Sources */,
 				396132072582FA3E0084D54E /* Store.swift in Sources */,
 				39613211258350E50084D54E /* Button.swift in Sources */,
+				393192AE25868762006F40FC /* AudioPlayer.swift in Sources */,
 				393192A325840F82006F40FC /* Curry.swift in Sources */,
 				396132062582FA3E0084D54E /* Swelm.swift in Sources */,
-				396131F62582F7CC0084D54E /* ViewGame.swift in Sources */,
+				396131F62582F7CC0084D54E /* PageView.swift in Sources */,
 				392EC1692583FEF700F1AB4B /* VCGame.swift in Sources */,
 				392EC1662583F08500F1AB4B /* String+Extensions.swift in Sources */,
 				393192A025840C4D006F40FC /* Functional.swift in Sources */,
 				3961320E25834F9C0084D54E /* UICommand.swift in Sources */,
 				3961320B25834F320084D54E /* KeyboardView.swift in Sources */,
 				396131D8258280770084D54E /* AppDelegate.swift in Sources */,
+				393192A62584174B006F40FC /* GameTestData.swift in Sources */,
 				396131DA258280770084D54E /* SceneDelegate.swift in Sources */,
+				396965E32588020A004903FA /* ViewGame.swift in Sources */,
 				3931929C25840B7C006F40FC /* Array+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,6 +593,14 @@
 				minimumVersion = 5.0.1;
 			};
 		};
+		396965F225892761004903FA /* XCRemoteSwiftPackageReference "DifferenceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ra1028/DifferenceKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.5;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -486,6 +608,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 396131F92582F9400084D54E /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		396965F325892761004903FA /* DifferenceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 396965F225892761004903FA /* XCRemoteSwiftPackageReference "DifferenceKit" */;
+			productName = DifferenceKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
