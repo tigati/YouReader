@@ -43,7 +43,19 @@ extension KeyboardView: PropsRenderer {
         
         let maxElementsInRow = Int((width + interHSpace) / (cellSize.width + interHSpace))
         
-        let rows = keyViews.chunked(into: maxElementsInRow)
+        let numberOfRows = Int(ceil(Double(keyViews.count) / Double(maxElementsInRow)))
+        
+        let emptySlots = maxElementsInRow - keyViews.count % maxElementsInRow
+        
+        let chunkSize: Int
+        
+        if (numberOfRows > 1) && emptySlots > (numberOfRows - 1) {
+            chunkSize = maxElementsInRow - emptySlots / numberOfRows
+        } else {
+            chunkSize = maxElementsInRow
+        }
+        
+        let rows = keyViews.chunked(into: chunkSize)
         
         rows.enumerated().forEach { rowIndex, row in
             let margin = (

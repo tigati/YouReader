@@ -24,7 +24,7 @@ public final class KeyView: Button {
         label.style(Style.monoTitle2)
         label.style(Style.centerAligned)
         label.font = font
-        addTarget(self, action: #selector(didTap), for: .touchUpInside)
+        addTarget(self, action: #selector(didTap), for: .touchDown)
     }
 
     public override func setHighlighted(_ isHighlighted: Bool) {
