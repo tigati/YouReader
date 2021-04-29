@@ -6,7 +6,7 @@ import SnapKit
 public final class KeyboardView: View {
     private var keyViews: [KeyView] = []
     
-    private let cellSize = CGSize(width: 60, height: 60)
+    private let cellSize = CGSize(width: 60, height: 70)
     private let interHSpace = Space.space04
     private let interVSpace = Space.space04
     

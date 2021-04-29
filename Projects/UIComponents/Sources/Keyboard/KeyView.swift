@@ -19,19 +19,21 @@ public final class KeyView: Button {
     public override func setupViews() {
         containerView.layer.cornerRadius = Space.space01
         containerView.layer.cornerCurve = .continuous
-        containerView.backgroundColor = ThemeColor.secondaryBackground
+        containerView.backgroundColor = .white
+        containerView.alpha = 0.8
         containerView.isUserInteractionEnabled = false
         label.style(Style.monoTitle2)
         label.style(Style.centerAligned)
+        label.textColor = .black
         label.font = font
         addTarget(self, action: #selector(didTap), for: .touchDown)
     }
 
     public override func setHighlighted(_ isHighlighted: Bool) {
         if isHighlighted {
-            containerView.backgroundColor = ThemeColor.tertiaryBackground
+            containerView.alpha = 0.4
         } else {
-            containerView.backgroundColor = ThemeColor.secondaryBackground
+            containerView.alpha = 0.8
         }
     }
     
