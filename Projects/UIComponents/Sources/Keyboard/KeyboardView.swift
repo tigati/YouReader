@@ -49,7 +49,7 @@ extension KeyboardView: PropsRenderer {
         
         let chunkSize: Int
         
-        if (numberOfRows > 1) && emptySlots > (numberOfRows - 1) {
+        if (keyViews.count % maxElementsInRow > 0) && (numberOfRows > 1) && emptySlots > (numberOfRows - 1) {
             chunkSize = maxElementsInRow - emptySlots / numberOfRows
         } else {
             chunkSize = maxElementsInRow

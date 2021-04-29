@@ -5,8 +5,6 @@ let russianSoglasnaie = Set("бвгджзйклмнпрстфхцчшщ")
 let russianZnaki = Set("ьъ")
 let russianGlasnie = Set("аеёиоуыэюя")
 
-
-
 func parseBySklads(text: String) -> [StringPart] {
     let text = text.lowercased()
     var substrings: [StringPart] = []
@@ -78,11 +76,7 @@ extension Character {
     }
 }
 
-let wordList: [String] = [
-    
-]
-
-let words: [Phrase] = [
+let phrases: [Phrase] = [
     .init(text: "сатурн", image: "Gulka_001", background: Palette.red),
     .init(text: "балерина", image: "Gulka_001", background: Palette.red),
     .init(text: "юбка", image: "Gulka_001", background: Palette.red),
@@ -218,36 +212,51 @@ let words: [Phrase] = [
     .init(text: "лупа", image: "Gulka_034", background: Palette.green),
     .init(text: "мелочь", image: "Gulka_034", background: Palette.green),
     .init(text: "жук", image: "Gulka_034", background: Palette.green),
-].shuffled()
-
-let phrases: [Phrase] = [
-    .init(text: "фу! кислый!", image:"limon", background: Palette.red),
-    .init(text: "ой! кто это?", image:"luzha", background: Palette.green),
-    .init(text: "какой красивый!", image:"lebed'", background: Palette.blue),
-    .init(text: "я похож на луну?", image:"luna", background: Palette.yellow),
-    .init(text: "наберу грибов", image:"les", background: .red),
-    .init(text: "вот ты где!", image:"", background: .red),
-    .init(text: "эй! поехали!", image:"", background: .red),
-    .init(text: "мамочки! горим!", image:"", background: .red),
-    .init(text: "я - молодец", image:"", background: .red),
-    .init(text: "баю-бай", image:"", background: .red),
-    .init(text: "еду к бабушке!", image:"", background: .red),
-    .init(text: "письмо деду морозу", image:"", background: .red),
-    .init(text: "нос замёрз", image:"", background: .red),
-    .init(text: "не весело", image:"", background: .red),
-    .init(text: "там моркова", image:"", background: .red),
-    .init(text: "я как папа!", image:"", background: .red),
-    .init(text: "не бойся, кот!", image:"", background: .red),
-    .init(text: "ба-бах", image:"", background: .red),
-    .init(text: "я и мой брат", image:"", background: .red),
-    .init(text: "рисую змею", image:"", background: .red),
-    .init(text: "принимаю соль", image:"", background: .red),
-    .init(text: "надо погромче!", image:"", background: .red),
-    .init(text: "закончился", image:"", background: .red),
-    .init(text: "отпусти", image:"", background: .red),
-    .init(text: "гав-гав!", image:"", background: .red),
-
 ]
+
+let words: [Phrase] = {
+    let allSklads = Array(Set(phrases.flatMap { phrase -> [String] in
+        parseBySklads(text: phrase.text).map{$0.text}
+    })).shuffled()
+    
+    var notePhrases = allSklads.chunked(into: 25).map { sklads -> Phrase in
+        let text = sklads.joined()
+        return .init(text: text, image: "", background: .black)
+    }
+    notePhrases.append(contentsOf: phrases)
+    notePhrases.shuffle()
+    return notePhrases
+}()
+
+//
+//let phrases: [Phrase] = [
+//    .init(text: "фу! кислый!", image:"limon", background: Palette.red),
+//    .init(text: "ой! кто это?", image:"luzha", background: Palette.green),
+//    .init(text: "какой красивый!", image:"lebed'", background: Palette.blue),
+//    .init(text: "я похож на луну?", image:"luna", background: Palette.yellow),
+//    .init(text: "наберу грибов", image:"les", background: .red),
+//    .init(text: "вот ты где!", image:"", background: .red),
+//    .init(text: "эй! поехали!", image:"", background: .red),
+//    .init(text: "мамочки! горим!", image:"", background: .red),
+//    .init(text: "я - молодец", image:"", background: .red),
+//    .init(text: "баю-бай", image:"", background: .red),
+//    .init(text: "еду к бабушке!", image:"", background: .red),
+//    .init(text: "письмо деду морозу", image:"", background: .red),
+//    .init(text: "нос замёрз", image:"", background: .red),
+//    .init(text: "не весело", image:"", background: .red),
+//    .init(text: "там моркова", image:"", background: .red),
+//    .init(text: "я как папа!", image:"", background: .red),
+//    .init(text: "не бойся, кот!", image:"", background: .red),
+//    .init(text: "ба-бах", image:"", background: .red),
+//    .init(text: "я и мой брат", image:"", background: .red),
+//    .init(text: "рисую змею", image:"", background: .red),
+//    .init(text: "принимаю соль", image:"", background: .red),
+//    .init(text: "надо погромче!", image:"", background: .red),
+//    .init(text: "закончился", image:"", background: .red),
+//    .init(text: "отпусти", image:"", background: .red),
+//    .init(text: "гав-гав!", image:"", background: .red),
+//
+//]
 
 
 func getAllSklads(phrases: [Phrase]) -> [String] {
