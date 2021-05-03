@@ -6,8 +6,6 @@ final class GameView: View {
     
     static let cellID = "Cell"
     
-    private var pages: [PageView.Props] = []
-    
     var props: Props!
     
     lazy var collectionView: UICollectionView = {
@@ -36,19 +34,21 @@ final class GameView: View {
 
 extension GameView: PropsRenderer {
     struct Props {
-        let pages: [PageView.Props]
+        let numberOfPages: Int
+        let currentPage: Int
+        let visiblePages: [Int : PageView.Props]
         let didScroll: ViewEventWith<Int>
     }
     
     func render(_ props: Props) {
         self.props = props
-        let changeset = StagedChangeset(source: pages, target: props.pages)
-        UIView.animate(withDuration: 0) {
-            self.collectionView.reload(using: changeset) { data in
-                self.pages = props.pages
-            }
+        props.visiblePages.forEach { key, page in
+            guard let cell = collectionView
+                .cellForItem(at: IndexPath(item: key, section: 0))
+                as? PageViewCell
+            else { return }
+            cell.pageView.render(props: page)
         }
-        
     }
 }
 
@@ -74,7 +74,7 @@ extension GameView: UIScrollViewDelegate {
     public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let pageWidth = scrollView.bounds.size.width
         let currentPage = scrollView.contentOffset.x / pageWidth
-        if floor(currentPage) == currentPage {
+        if abs(currentPage - CGFloat(self.props.currentPage)) >= 1 {
             props.didScroll.perform(with: Int(floor(currentPage)))
         }
     }
@@ -82,18 +82,19 @@ extension GameView: UIScrollViewDelegate {
 
 extension GameView: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return pages.count
+        return props.numberOfPages
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard
-            let page = pages[safe: indexPath.row],
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: Self.cellID, for: indexPath) as? PageViewCell
         else {
             fatalError("PAGE NOT FOUND")
         }
         
-        cell.pageView.render(props: page)
+        if let page = props.visiblePages[indexPath.row] {
+            cell.pageView.render(props: page)
+        }
         return cell
     }
     

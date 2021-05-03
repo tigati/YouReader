@@ -13,4 +13,12 @@ struct Phrase {
 struct StringPart: Equatable {
     let text: String
     let range: Range<String.Index>
+    let isAccent: Bool
+    
+    var soundFilename: SoundFilename {
+        if isAccent {
+            return "\(text)\(accentSymbol)"
+        }
+        return "\(text)"
+    }
 }

@@ -1,4 +1,5 @@
 import UIKit
+import Core
 import DifferenceKit
 import UIComponents
 

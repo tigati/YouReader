@@ -4,12 +4,17 @@ let russianLetters = Set("абвгдеёжзийклмнопрстуфхцчшщ
 let russianSoglasnaie = Set("бвгджзйклмнпрстфхцчшщ")
 let russianZnaki = Set("ьъ")
 let russianGlasnie = Set("аеёиоуыэюя")
+let accentSymbol: Character = "`"
 
 func parseBySklads(text: String) -> [StringPart] {
-    let text = text.lowercased()
+    let accentIndex = text.distance(of: accentSymbol).map { $0 - 1 }
+    let text = text.lowercased().replacingOccurrences(of: String(accentSymbol), with: String.empty)
     var substrings: [StringPart] = []
     var previousSkladIndex: Int? = nil
     for (index, char) in text.enumerated() {
+        
+        // Определяем под ударением ли склад
+        let isAccent = accentIndex == index
         
         if char.isRussianLetter == false { continue }
         
@@ -26,7 +31,7 @@ func parseBySklads(text: String) -> [StringPart] {
             let end = text.index(text.startIndex, offsetBy: startIndex + letterOffset)
             let range = start..<end
             let candidate = String(text[range])
-            let part = StringPart.init(text: candidate, range: range)
+            let part = StringPart.init(text: candidate, range: range, isAccent: isAccent)
             substrings.append(part)
             continue
         }
@@ -36,7 +41,7 @@ func parseBySklads(text: String) -> [StringPart] {
             let end = text.index(text.startIndex, offsetBy: index + 1)
             let range = start..<end
             let candidate = String(text[range])
-            let part = StringPart.init(text: candidate, range: range)
+            let part = StringPart.init(text: candidate, range: range, isAccent: isAccent)
             substrings.append(part)
             previousSkladIndex = nil
             continue
@@ -49,8 +54,9 @@ func parseBySklads(text: String) -> [StringPart] {
         let start = text.index(text.startIndex, offsetBy: startIndex)
         let end = text.index(text.startIndex, offsetBy: startIndex + 1)
         let range = start..<end
+        let isAccent = accentIndex == startIndex
         let candidate = String(text[range])
-        let part = StringPart.init(text: candidate, range: range)
+        let part = StringPart.init(text: candidate, range: range, isAccent: isAccent)
         substrings.append(part)
     }
     
@@ -77,75 +83,75 @@ extension Character {
 }
 
 let phrases: [Phrase] = [
-    .init(text: "сатурн", image: "Gulka_001", background: Palette.red),
-    .init(text: "балерина", image: "Gulka_001", background: Palette.red),
-    .init(text: "юбка", image: "Gulka_001", background: Palette.red),
+    .init(text: "сату`рн", image: "Gulka_001", background: Palette.red),
+    .init(text: "балери`на", image: "Gulka_001", background: Palette.red),
+    .init(text: "ю`бка", image: "Gulka_001", background: Palette.red),
     
-    .init(text: "сапог", image: "Gulka_002", background: Palette.green),
-    .init(text: "камень", image: "Gulka_002", background: Palette.green),
-    .init(text: "молодец", image: "Gulka_002", background: Palette.green),
+    .init(text: "сапо`г", image: "Gulka_002", background: Palette.green),
+    .init(text: "ка`мень", image: "Gulka_002", background: Palette.green),
+    .init(text: "молоде`ц", image: "Gulka_002", background: Palette.green),
     
-    .init(text: "рыба", image: "Gulka_003", background: Palette.yellow),
-    .init(text: "сачок", image: "Gulka_003", background: Palette.yellow),
-    .init(text: "живи", image: "Gulka_003", background: Palette.yellow),
+    .init(text: "ры`ба", image: "Gulka_003", background: Palette.yellow),
+    .init(text: "сачо`к", image: "Gulka_003", background: Palette.yellow),
+    .init(text: "живи`", image: "Gulka_003", background: Palette.yellow),
     
-    .init(text: "салют", image: "Gulka_004", background: Palette.green),
-    .init(text: "ура", image: "Gulka_004", background: Palette.green),
-    .init(text: "праздник", image: "Gulka_004", background: Palette.green),
+    .init(text: "салю`т", image: "Gulka_004", background: Palette.green),
+    .init(text: "ура`", image: "Gulka_004", background: Palette.green),
+    .init(text: "пра`здник", image: "Gulka_004", background: Palette.green),
     
-    .init(text: "сумка", image: "Gulka_005", background: Palette.red),
-    .init(text: "едет", image: "Gulka_005", background: Palette.red),
-    .init(text: "котик", image: "Gulka_005", background: Palette.red),
+    .init(text: "су`мка", image: "Gulka_005", background: Palette.red),
+    .init(text: "е`дет", image: "Gulka_005", background: Palette.red),
+    .init(text: "ко`тик", image: "Gulka_005", background: Palette.red),
     
-    .init(text: "туфли", image: "Gulka_006", background: Palette.blue),
-    .init(text: "красивые", image: "Gulka_006", background: Palette.blue),
-    .init(text: "каблуки", image: "Gulka_006", background: Palette.blue),
+    .init(text: "ту`фли", image: "Gulka_006", background: Palette.blue),
+    .init(text: "краси`вые", image: "Gulka_006", background: Palette.blue),
+    .init(text: "каблуки`", image: "Gulka_006", background: Palette.blue),
     
-    .init(text: "суп", image: "Gulka_007", background: Palette.yellow),
-    .init(text: "горячо", image: "Gulka_007", background: Palette.yellow),
-    .init(text: "полезно", image: "Gulka_007", background: Palette.yellow),
+    .init(text: "су`п", image: "Gulka_007", background: Palette.yellow),
+    .init(text: "горячо`", image: "Gulka_007", background: Palette.yellow),
+    .init(text: "поле`зно", image: "Gulka_007", background: Palette.yellow),
     
-    .init(text: "туча", image: "Gulka_008", background: Palette.blue),
-    .init(text: "сержусь", image: "Gulka_008", background: Palette.blue),
-    .init(text: "бука", image: "Gulka_008", background: Palette.blue),
+    .init(text: "ту`ча", image: "Gulka_008", background: Palette.blue),
+    .init(text: "сержу`сь", image: "Gulka_008", background: Palette.blue),
+    .init(text: "бу`ка", image: "Gulka_008", background: Palette.blue),
     
-    .init(text: "санки", image: "Gulka_009", background: Palette.green),
-    .init(text: "эгегей", image: "Gulka_009", background: Palette.green),
-    .init(text: "кататься", image: "Gulka_009", background: Palette.green),
+    .init(text: "са`нки", image: "Gulka_009", background: Palette.green),
+    .init(text: "эгеге`й", image: "Gulka_009", background: Palette.green),
+    .init(text: "ката`ться", image: "Gulka_009", background: Palette.green),
     
-    .init(text: "пожар", image: "Gulka_010", background: Palette.blue),
-    .init(text: "помогите", image: "Gulka_010", background: Palette.blue),
-    .init(text: "беда", image: "Gulka_010", background: Palette.blue),
+    .init(text: "пожа`р", image: "Gulka_010", background: Palette.blue),
+    .init(text: "помоги`те", image: "Gulka_010", background: Palette.blue),
+    .init(text: "беда`", image: "Gulka_010", background: Palette.blue),
     
-    .init(text: "лебедь", image: "Gulka_011", background: Palette.red),
-    .init(text: "люблю", image: "Gulka_011", background: Palette.red),
-    .init(text: "похож", image: "Gulka_011", background: Palette.red),
+    .init(text: "ле`бедь", image: "Gulka_011", background: Palette.red),
+    .init(text: "люблю`", image: "Gulka_011", background: Palette.red),
+    .init(text: "похо`ж", image: "Gulka_011", background: Palette.red),
     
-    .init(text: "почта", image: "Gulka_012", background: Palette.green),
-    .init(text: "бабушке", image: "Gulka_012", background: Palette.green),
-    .init(text: "письмо", image: "Gulka_012", background: Palette.green),
+    .init(text: "по`чта", image: "Gulka_012", background: Palette.green),
+    .init(text: "ба`бушке", image: "Gulka_012", background: Palette.green),
+    .init(text: "письмо`", image: "Gulka_012", background: Palette.green),
     
-    .init(text: "поезд", image: "Gulka_013", background: Palette.red),
-    .init(text: "билет", image: "Gulka_013", background: Palette.red),
-    .init(text: "путешествие", image: "Gulka_013", background: Palette.red),
+    .init(text: "по`езд", image: "Gulka_013", background: Palette.red),
+    .init(text: "биле`т", image: "Gulka_013", background: Palette.red),
+    .init(text: "путеше`ствие", image: "Gulka_013", background: Palette.red),
     
-    .init(text: "подушка", image: "Gulka_014", background: Palette.yellow),
-    .init(text: "спать", image: "Gulka_014", background: Palette.yellow),
-    .init(text: "хорошо", image: "Gulka_014", background: Palette.yellow),
+    .init(text: "поду`шка", image: "Gulka_014", background: Palette.yellow),
+    .init(text: "спа`ть", image: "Gulka_014", background: Palette.yellow),
+    .init(text: "хорошо`", image: "Gulka_014", background: Palette.yellow),
     
-    .init(text: "посуда", image: "Gulka_015", background: Palette.red),
-    .init(text: "табуретка", image: "Gulka_015", background: Palette.red),
-    .init(text: "мою", image: "Gulka_015", background: Palette.red),
+    .init(text: "посу`да", image: "Gulka_015", background: Palette.red),
+    .init(text: "табуре`тка", image: "Gulka_015", background: Palette.red),
+    .init(text: "мо`ю", image: "Gulka_015", background: Palette.red),
     
-    .init(text: "пони", image: "Gulka_016", background: Palette.green),
-    .init(text: "всадник", image: "Gulka_016", background: Palette.green),
-    .init(text: "чёлка", image: "Gulka_016", background: Palette.green),
+    .init(text: "по`ни", image: "Gulka_016", background: Palette.green),
+    .init(text: "вса`дник", image: "Gulka_016", background: Palette.green),
+    .init(text: "чё`лка", image: "Gulka_016", background: Palette.green),
     
-    .init(text: "лимон", image: "Gulka_017", background: Palette.yellow),
-    .init(text: "кислый", image: "Gulka_017", background: Palette.yellow),
-    .init(text: "язык", image: "Gulka_017", background: Palette.yellow),
+    .init(text: "лимо`н", image: "Gulka_017", background: Palette.yellow),
+    .init(text: "ки`слый", image: "Gulka_017", background: Palette.yellow),
+    .init(text: "язы`к", image: "Gulka_017", background: Palette.yellow),
     
-    .init(text: "лужа", image: "Gulka_018", background: Palette.red),
+    .init(text: "лу`жа", image: "Gulka_018", background: Palette.red),
     .init(text: "смотрит", image: "Gulka_018", background: Palette.red),
     .init(text: "мокро", image: "Gulka_018", background: Palette.red),
     
@@ -217,7 +223,7 @@ let phrases: [Phrase] = [
 let words: [Phrase] = {
     let allSklads = Array(Set(phrases.flatMap { phrase -> [String] in
         parseBySklads(text: phrase.text).map{$0.text}
-    })).shuffled()
+    }))//.shuffled()
     
     var notePhrases = allSklads.chunked(into: 25).map { sklads -> Phrase in
         let text = sklads.joined()
@@ -257,20 +263,3 @@ let words: [Phrase] = {
 //    .init(text: "гав-гав!", image:"", background: .red),
 //
 //]
-
-
-func getAllSklads(phrases: [Phrase]) -> [String] {
-    let set = phrases.reduce(Set<String>()) { set, phrase -> Set<String> in
-        let array = parseBySklads(text: phrase.text)
-        let strings = array.map { part -> String in
-            part.text
-        }
-        
-        let add = Set(strings)
-        return set.union(add)
-    }
-    
-    let sorted = Array(set).sorted()
-    
-    return sorted
-}

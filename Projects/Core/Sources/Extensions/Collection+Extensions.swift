@@ -19,3 +19,7 @@ public extension Collection {
         return indices.contains(newIndex) ? self[newIndex] : nil
     }
 }
+
+public extension Collection {
+    func distance(to index: Index) -> Int { distance(from: startIndex, to: index) }
+}
