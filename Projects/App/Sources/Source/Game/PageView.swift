@@ -66,7 +66,7 @@ extension PageView {
         imageView.image = UIImage.init(named: props.image)
         typeLabel.text = .empty
         if let currentStringPart = props.currentStringPart {
-//            typeLabel.text = currentStringPart
+            typeLabel.text = currentStringPart
         }
         
         keyboardView.render(props.keyboard)

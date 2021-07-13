@@ -108,10 +108,15 @@ extension GamePage {
         let range = start...end
         let pages = range.map { index -> (Int, PageView.Props) in
             let round = state.rounds[index]
+            
+            let currentStringPart = state.currentRoundIndex == index
+                ? state.currentString
+                : nil
+            
             let mappedRound = mapRound(
                 round: round,
                 index: index,
-                currentStringPart: state.currentString,
+                currentStringPart: currentStringPart,
                 dispatch: dispatch
             )
             return (index, mappedRound)

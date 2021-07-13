@@ -1,7 +1,7 @@
 import XCTest
 @testable import App
 
-class Resources: XCTestCase {
+class ResourcesTests: XCTestCase {
     func testForMissedSoundFiles() throws {
         let sklads = getAllSoundFilenames(phrases: phrases)
         let missed = sklads.compactMap { sklad -> String? in
@@ -14,6 +14,21 @@ class Resources: XCTestCase {
         
         missed.forEach { miss in
             print(miss)
+        }
+        
+        let udarnye = missed.filter { sklad -> Bool in
+            sklad.contains("`")
+        }
+        
+        let bezudarnye = missed.filter { sklad -> Bool in
+            !sklad.contains("`")
+        }
+        
+        let attachmentData = Attachment(udarnye: udarnye, bezudarnye: bezudarnye)
+        
+        let encoder = JSONEncoder()
+        if let data = try? encoder.encode(attachmentData) {
+            add(XCTAttachment(data: data))
         }
         
         XCTAssertTrue(missed.isEmpty, "Found missed sound files for \(missed.count) sklads: \(missed)")
@@ -35,4 +50,11 @@ class Resources: XCTestCase {
         return sorted
     }
 
+}
+
+extension ResourcesTests {
+    struct Attachment: Codable {
+        let udarnye: [String]
+        let bezudarnye: [String]
+    }
 }
