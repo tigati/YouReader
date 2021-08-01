@@ -36,7 +36,7 @@ enum GamePage {
     }
     
     enum Event {
-        case noteButtonTapped(StringPart)
+        case noteButtonTapped(String)
         case imageTapped
         case homeButtonTapped
         case pageScrolled(Int)
@@ -49,18 +49,7 @@ enum GamePage {
     static func update(state: inout State, event: Event) -> [Effect] {
         switch event {
         case .noteButtonTapped(let note):
-            
-//            if state.isCorrectNote(note: note) {
-//                if state.isEndOfPhrase() {
-//                    state.currentStringPartIndex = 0
-//                } else {
-//                    state.currentStringPartIndex += 1
-//                }
-//            }
-            
-            state.currentString = note.text
-            
-            return [.playNote(note.text)]
+            return [.playNote(note)]
         case .pageScrolled(let pageIndex):
             if pageIndex == state.currentRoundIndex { return [] }
             state.currentRoundIndex = pageIndex
@@ -139,10 +128,13 @@ extension GamePage {
         dispatch: @escaping Dispatch
     ) -> PageView.Props
     {
-        
-        let mapNoteWithDispatch = curry(mapNote)(dispatch)
         let array = round.substrings
-        let buttons = array.map(mapNoteWithDispatch)
+        let buttons: [KeyView.Props] = array.enumerated().map { index, note in
+            return .init(
+                text: note.text,
+                onTap: ViewEvent { dispatch(.noteButtonTapped("\(round.string)-\(index + 1)")) }
+            )
+        }
         
         return .init(
             index: index,
@@ -153,13 +145,6 @@ extension GamePage {
                 keys: buttons
             ),
             background: round.background
-        )
-    }
-    
-    static func mapNote(dispatch: @escaping Dispatch, note: StringPart) -> KeyView.Props {
-        return .init(
-            text: note.text,
-            onTap: ViewEvent { dispatch(.noteButtonTapped(note)) }
         )
     }
     

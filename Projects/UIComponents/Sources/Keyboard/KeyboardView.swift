@@ -1,7 +1,6 @@
 import Foundation
 import Core
 import UIKit
-import SnapKit
 
 public final class KeyboardView: View {
     private var keyViews: [KeyView] = []

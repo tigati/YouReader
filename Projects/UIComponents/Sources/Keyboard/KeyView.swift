@@ -1,7 +1,5 @@
 import Foundation
 import UIKit
-import SnapKit
-import AVFoundation
 
 public final class KeyView: Button {
     private let containerView = UIView()

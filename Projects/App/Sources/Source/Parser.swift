@@ -83,126 +83,188 @@ extension Character {
 }
 
 let phrases: [Phrase] = [
-    .init(text: "сату`рн", image: "Gulka_010", background: Palette.red),
-    .init(text: "ю`бка", image: "Gulka_010", background: Palette.red),
+    .init(text: "ёж", image: "Gulka_046", background: Palette.red),
+    .init(text: "кот", image: "Gulka_007", background: Palette.red),
+    .init(text: "суп", image: "Gulka_005", background: Palette.green),
+    .init(text: "шея", image: "Gulka_029", background: Palette.red),
+    .init(text: "сок", image: "Gulka_028", background: Palette.yellow),
+    .init(text: "лес", image: "Gulka_057", background: Palette.blue),
+    .init(text: "фея", image: "Gulka_037", background: Palette.red),
+    .init(text: "усы", image: "Gulka_038", background: Palette.yellow),
+    .init(text: "яма", image: "Gulka_047", background: Palette.green),
+    .init(text: "пар", image: "Gulka_048", background: Palette.red),
+    .init(text: "дым", image: "Gulka_049", background: Palette.green),
+    .init(text: "мак", image: "Gulka_051", background: Palette.yellow),
+    .init(text: "оса", image: "Gulka_054", background: Palette.red),
     
-    .init(text: "сапо`г", image: "Gulka_011", background: Palette.green),
-    .init(text: "ка`мень", image: "Gulka_011", background: Palette.green),
+    .init(text: "сатурн", image: "Gulka_010", background: Palette.red),
+    .init(text: "юбка", image: "Gulka_010", background: Palette.red),
     
-    .init(text: "ры`ба", image: "Gulka_009", background: Palette.blue),
-    .init(text: "сачо`к", image: "Gulka_009", background: Palette.blue),
+    .init(text: "сапог", image: "Gulka_011", background: Palette.green),
+    .init(text: "камень", image: "Gulka_011", background: Palette.green),
     
-    .init(text: "салю`т", image: "Gulka_008", background: Palette.red),
+    .init(text: "рыба", image: "Gulka_009", background: Palette.green),
+    .init(text: "сачок", image: "Gulka_009", background: Palette.blue),
     
-    .init(text: "су`мка", image: "Gulka_007", background: Palette.red),
-    .init(text: "ко`т", image: "Gulka_007", background: Palette.red),
+    .init(text: "салют", image: "Gulka_008", background: Palette.red),
     
-    .init(text: "ту`фли", image: "Gulka_006", background: Palette.red),
+    .init(text: "сумка", image: "Gulka_007", background: Palette.red),
     
-    .init(text: "су`п", image: "Gulka_005", background: Palette.green),
+    .init(text: "туфли", image: "Gulka_006", background: Palette.red),
+
     
-    .init(text: "ту`ча", image: "Gulka_004", background: Palette.blue),
+    .init(text: "туча", image: "Gulka_004", background: Palette.blue),
     
-    .init(text: "са`нки", image: "Gulka_003", background: Palette.blue),
+    .init(text: "санки", image: "Gulka_003", background: Palette.blue),
     
-    .init(text: "пожа`р", image: "Gulka_001", background: Palette.blue),
+    .init(text: "пожар", image: "Gulka_001", background: Palette.blue),
     
-    .init(text: "ле`бедь", image: "Gulka_002", background: Palette.yellow),
+    .init(text: "лебедь", image: "Gulka_002", background: Palette.yellow),
     
-    .init(text: "по`чта", image: "Gulka_032", background: Palette.red),
-    .init(text: "письмо``", image: "Gulka_032", background: Palette.red),
+    .init(text: "почта", image: "Gulka_032", background: Palette.red),
+    .init(text: "письмо", image: "Gulka_032", background: Palette.red),
     
-    .init(text: "по`езд", image: "Gulka_033", background: Palette.green),
-    .init(text: "биле`т", image: "Gulka_033", background: Palette.green),
+    .init(text: "поезд", image: "Gulka_033", background: Palette.green),
+    .init(text: "билет", image: "Gulka_033", background: Palette.green),
     
-    .init(text: "поду`шка", image: "Gulka_035", background: Palette.red),
+    .init(text: "подушка", image: "Gulka_035", background: Palette.red),
     
-    .init(text: "посу`да", image: "Gulka_034", background: Palette.yellow),
+    .init(text: "посуда", image: "Gulka_034", background: Palette.yellow),
     
-    .init(text: "по`ни", image: "Gulka_014", background: Palette.yellow),
+    .init(text: "пони", image: "Gulka_014", background: Palette.yellow),
     
-    .init(text: "лимо`н", image: "Gulka_017", background: Palette.yellow),
+    .init(text: "лимон", image: "Gulka_017", background: Palette.yellow),
     
-    .init(text: "лу`жа", image: "Gulka_015", background: Palette.blue),
+    .init(text: "лужа", image: "Gulka_015", background: Palette.blue),
     
-    .init(text: "рука`", image: "Gulka_029", background: Palette.red),
-    .init(text: "ше`я", image: "Gulka_029", background: Palette.red),
+    .init(text: "рука", image: "Gulka_029", background: Palette.red),
     
-    .init(text: "луна`", image: "Gulka_012", background: Palette.yellow),
+    .init(text: "луна", image: "Gulka_012", background: Palette.yellow),
     
-    .init(text: "соба`ка", image: "Gulka_030", background: Palette.green),
+    .init(text: "собака", image: "Gulka_030", background: Palette.green),
     
-    .init(text: "со`к", image: "Gulka_028", background: Palette.green),
+    .init(text: "музыка", image: "Gulka_027", background: Palette.yellow),
     
-    .init(text: "му`зыка", image: "Gulka_027", background: Palette.yellow),
+    .init(text: "соль", image: "Gulka_026", background: Palette.red),
     
-    .init(text: "со`ль", image: "Gulka_026", background: Palette.yellow),
+    .init(text: "ручка", image: "Gulka_025", background: Palette.blue),
     
-    .init(text: "ру`чка", image: "Gulka_025", background: Palette.blue),
+    .init(text: "сова", image: "Gulka_024", background: Palette.green),
     
-    .init(text: "сова`", image: "Gulka_024", background: Palette.green),
+    .init(text: "лава", image: "Gulka_022", background: Palette.yellow),
     
-    .init(text: "ла`ва", image: "Gulka_022", background: Palette.yellow),
+    .init(text: "лапша", image: "Gulka_023", background: Palette.red),
     
-    .init(text: "лапша`", image: "Gulka_023", background: Palette.red),
+    .init(text: "лама", image: "Gulka_021", background: Palette.yellow),
     
-    .init(text: "ла`ма", image: "Gulka_021", background: Palette.yellow),
+    .init(text: "ласты", image: "Gulka_020", background: Palette.blue),
     
-    .init(text: "ла`сты", image: "Gulka_020", background: Palette.blue),
+    .init(text: "факел", image: "Gulka_019", background: Palette.yellow),
     
-    .init(text: "фа`кел", image: "Gulka_019", background: Palette.yellow),
+    .init(text: "лейка", image: "Gulka_018", background: Palette.green),
     
-    .init(text: "ле`йка", image: "Gulka_018", background: Palette.green),
+    .init(text: "лупа", image: "Gulka_031", background: Palette.blue),
     
-    .init(text: "ле`с", image: "Gulka_057", background: Palette.green),
+    .init(text: "жаба", image: "Gulka_056", background: Palette.yellow),
+    .init(text: "палка", image: "Gulka_056", background: Palette.yellow),
     
-    .init(text: "лу`па", image: "Gulka_031", background: Palette.blue),
+    .init(text: "снеговик", image: "Gulka_036", background: Palette.blue),
     
-    .init(text: "жа`ба", image: "Gulka_056", background: Palette.yellow),
-    .init(text: "па`лка", image: "Gulka_056", background: Palette.yellow),
+    .init(text: "динозавр", image: "Gulka_039", background: Palette.yellow),
     
-    .init(text: "снегови`к", image: "Gulka_036", background: Palette.blue),
+    .init(text: "ванна", image: "Gulka_040", background: Palette.blue),
     
-    .init(text: "фе`я", image: "Gulka_037", background: Palette.red),
+    .init(text: "машина", image: "Gulka_041", background: Palette.green),
     
-    .init(text: "усы`", image: "Gulka_038", background: Palette.green),
+    .init(text: "очки", image: "Gulka_042", background: Palette.red),
     
-    .init(text: "диноза`вр", image: "Gulka_039", background: Palette.yellow),
+    .init(text: "вампир", image: "Gulka_043", background: Palette.blue),
     
-    .init(text: "ва`нна", image: "Gulka_040", background: Palette.blue),
+    .init(text: "мороженое", image: "Gulka_044", background: Palette.yellow),
     
-    .init(text: "маши`на", image: "Gulka_041", background: Palette.green),
     
-    .init(text: "очки`", image: "Gulka_042", background: Palette.red),
     
-    .init(text: "вампи`р", image: "Gulka_043", background: Palette.blue),
+    .init(text: "нога", image: "Gulka_050", background: Palette.yellow),
     
-    .init(text: "моро`женое", image: "Gulka_044", background: Palette.yellow),
     
-    .init(text: "ё`ж", image: "Gulka_046", background: Palette.red),
     
-    .init(text: "я`ма", image: "Gulka_047", background: Palette.green),
+    .init(text: "кактус", image: "Gulka_052", background: Palette.blue),
     
-    .init(text: "па`р", image: "Gulka_048", background: Palette.red),
+    .init(text: "папа", image: "Gulka_053", background: Palette.red),
     
-    .init(text: "ды`м", image: "Gulka_049", background: Palette.green),
-    
-    .init(text: "нога`", image: "Gulka_050", background: Palette.yellow),
-    
-    .init(text: "ма`к", image: "Gulka_051", background: Palette.green),
-    
-    .init(text: "ка`ктус", image: "Gulka_052", background: Palette.blue),
-    
-    .init(text: "па`па", image: "Gulka_053", background: Palette.red),
-    
-    .init(text: "оса`", image: "Gulka_054", background: Palette.red),
-    
-    .init(text: "до`мик", image: "Gulka_055", background: Palette.green),
+    .init(text: "домик", image: "Gulka_055", background: Palette.green),
     
     
 ]
 
 /*
+ ёж - к
+ 
+ кот - к
+ суп - з
+ шея - к
+ сок - ж
+ лес - с
+ фея - к
+ усы - ж
+ яма - з
+ пар - к
+ дым - з
+ мак - ж
+ оса - к
+ 
+ рыба - з
+ туча - с
+ пони - ж
+ лужа - с
+ рука - к
+ луна - ж
+ соль - к
+ сова - з
+ лава - ж
+ лама - ж
+ лупа - с
+ жаба - ж
+ нога - ж
+ папа - к
+ 
+ юбка - к
+ сапог - з
+ сачок - с
+ салют - к
+ сумка - к
+ туфли - к
+ санки - с
+ пожар - с
+ почта - к
+ билет - з
+ лимон - ж
+ ручка - с
+ лапша - к
+ ласты - с
+ факел - ж
+ лейка - з
+ палка - ж
+ ванна - с
+ очки - п
+ домик - ж
+ поезд - з
+ 
+ сатурн - к
+ камень - з
+ лебедь - ж
+ письмо - к
+ посуда - ж
+ собака - з
+ музыка - ж
+ машина - з
+ вампир - с
+ кактус - с
+ 
+ подушка - ж
+ снеговик - с
+ динозавр - ж
+ мороженое - с
  
 */
  
@@ -224,121 +286,121 @@ let words: [Phrase] = {
 
 
 let phrases2: [String] = [
-    "сату`рн",
-    "ю`бка",
+    "сатурн",
+    "юбка",
     
-    "сапо`г",
-    "ка`мень",
+    "сапог",
+    "камень",
     
-    "ры`ба",
-    "сачо`к",
+    "рыба",
+    "сачок",
     
-    "салю`т",
+    "салют",
     
-    "су`мка",
-    "ко`т",
+    "сумка",
+    "кот",
     
-    "ту`фли",
+    "туфли",
     
-    "су`п",
+    "суп",
     
-    "ту`ча",
+    "туча",
     
-    "са`нки",
+    "санки",
     
-    "пожа`р",
+    "пожар",
     
-    "ле`бедь",
+    "лебедь",
     
-    "по`чта",
-    "письмо``",
+    "почта",
+    "письмо",
     
-    "по`езд",
-    "биле`т",
+    "поезд",
+    "билет",
     
-    "поду`шка",
+    "подушка",
     
-    "посу`да",
+    "посуда",
     
-    "по`ни",
+    "пони",
     
-    "лимо`н",
+    "лимон",
     
-    "лу`жа",
+    "лужа",
     
-    "рука`",
-    "ше`я",
+    "рука",
+    "шея",
     
-    "луна`",
+    "луна",
     
-    "соба`ка",
+    "собака",
     
-    "со`к",
+    "сок",
     
-    "му`зыка",
+    "музыка",
     
-    "со`ль",
+    "соль",
     
-    "ру`чка",
+    "ручка",
     
-    "сова`",
+    "сова",
     
-    "ла`ва",
+    "лава",
     
-    "лапша`",
+    "лапша",
     
-    "ла`ма",
+    "лама",
     
-    "ла`сты",
+    "ласты",
     
-    "фа`кел",
+    "факел",
     
-    "ле`йка",
+    "лейка",
     
-    "ле`с",
+    "лес",
     
-    "лу`па",
+    "лупа",
     
-    "жа`ба",
-    "па`лка",
+    "жаба",
+    "палка",
     
-    "снегови`к",
+    "снеговик",
     
-    "фе`я",
+    "фея",
     
-    "усы`",
+    "усы",
     
-    "диноза`вр",
+    "динозавр",
     
-    "ва`нна",
+    "ванна",
     
-    "маши`на",
+    "машина",
     
-    "очки`",
+    "очки",
     
-    "вампи`р",
+    "вампир",
     
-    "моро`женое",
+    "мороженое",
     
-    "ё`ж",
+    "ёж",
     
-    "я`ма",
+    "яма",
     
-    "па`р",
+    "пар",
     
-    "ды`м",
+    "дым",
     
-    "нога`",
+    "нога",
     
-    "ма`к",
+    "мак",
     
-    "ка`ктус",
+    "кактус",
     
-    "па`па",
+    "папа",
     
-    "оса`",
+    "оса",
     
-    "до`мик",
+    "домик",
     
     
 ]
