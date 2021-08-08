@@ -1198,7 +1198,6 @@
 			developmentRegion = ru;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				ru,
 			);
 			mainGroup = 6E8B464782E4F2ADB212C484;
@@ -1743,6 +1742,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = Q6X4QSG356;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Derived/InfoPlists/App.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -1750,6 +1751,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = games.lemur.youreader;
 				PRODUCT_NAME = App;
 				SDKROOT = iphoneos;
@@ -1805,6 +1807,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = games.lemur.youreader.core;
 				PRODUCT_NAME = Core;
 				SDKROOT = iphoneos;
@@ -1836,6 +1839,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = games.lemur.youreader.appUI;
 				PRODUCT_NAME = UIComponents;
 				SDKROOT = iphoneos;
@@ -1868,6 +1872,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = games.lemur.youreader.appUI;
 				PRODUCT_NAME = UIComponents;
 				SDKROOT = iphoneos;
@@ -1887,6 +1892,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = Q6X4QSG356;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Derived/InfoPlists/App.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -1894,6 +1901,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = games.lemur.youreader;
 				PRODUCT_NAME = App;
 				SDKROOT = iphoneos;
@@ -1922,6 +1930,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = games.lemur.youreader.core;
 				PRODUCT_NAME = Core;
 				SDKROOT = iphoneos;
