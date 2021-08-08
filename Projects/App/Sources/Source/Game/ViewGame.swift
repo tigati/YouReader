@@ -16,6 +16,7 @@ final class GameView: View {
         view.delegate = self
         view.isPagingEnabled = true
         view.dataSource = self
+        view.showsHorizontalScrollIndicator = false
         
         return view
     }()

@@ -7,65 +7,239 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		016D9F28FDB603F88C89F080 /* жаба-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 08637DC0C3253ED9FA5CE22F /* жаба-1.caf */; };
+		0196E5C592078EFDB7E66892 /* сатурн-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = AE31327A44D912765EA4FE25 /* сатурн-2.caf */; };
 		0352E5C252FBDBE470F908DB /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405B9AA677753C3B2D87CC85 /* Resources.swift */; };
 		05DFE02B40AC136BAD541213 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1F465686BB272E9C5018C0 /* Size.swift */; };
+		0768F838409197CE7CEC5B1B /* машина-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 211A5F1E3EF914EF2C181697 /* машина-1.caf */; };
 		07C7D77152F780DC9A9F743F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8A26E802F1F1EB153607BB16 /* SnapKit */; };
+		0820F7B32FC2D41D1A60E16D /* пар-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = DCF977F3BF5D923423DC2CFA /* пар-1.caf */; };
 		09713BF4A04257BC64D324BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF6F666389315A19010D10 /* AppDelegate.swift */; };
 		0A9FEF6D92FD51EC3A5D5E97 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A00560944E47E65639CAEC6 /* Parser.swift */; };
+		0C5286EB83CA0345EF0DD745 /* нога-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = B8FF2623CCA7C3A196820D27 /* нога-1.caf */; };
 		0D01B37818C11DCD4F07E0EB /* UIComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE856C1C4564E7AF968BFDCF /* UIComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0D13C24BC72C3143ECA65A71 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F27F56FCFD62CDAA0CA9A7CF /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0ED6FFAB80EBC8C8F7BDFE2D /* камень-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = BDE95E290EC1F9566B2E73F7 /* камень-2.caf */; };
+		10A2634FC78E727BE6BA6811 /* пожар-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2B20BFD957E44602E76486C5 /* пожар-2.caf */; };
+		10C5379E510A71FEB893C452 /* почта-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = C5A2DE4F2695AC48FC79DE75 /* почта-2.caf */; };
+		126A68600A9216B5ABEC3300 /* сова-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = BD9FDD5650D106A5FFC1294D /* сова-1.caf */; };
+		14808C7595AD112DE68C1CDB /* сатурн-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 026AA9B801C175C4CC698870 /* сатурн-4.caf */; };
+		14B04F415B2E140E2D5F988D /* ёж-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6B4CCEAA82B90F232207C2C9 /* ёж-2.caf */; };
+		15E17FBADCD2488AF671764C /* суп-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 9B84527C368F05BDB24FDFE2 /* суп-2.caf */; };
+		176B982A472DFF01511102C5 /* музыка-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = B2EFED3BC0ED83D499729956 /* музыка-3.caf */; };
 		19232CE4629AC8D4156CA92E /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3455602EFBE0BD1BFE40F0 /* String+Extensions.swift */; };
 		1BF3A639DB232CE324C07B0C /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC38A6DFDBD067306C877916 /* App.swift */; };
 		1BFC4D517F262F0C9E7B3892 /* ViewEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43EDC619913EA4A08E77FAA /* ViewEvent.swift */; };
+		1EA07BC51E34811060175C3E /* снеговик-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 39599EF6FA9D24CDD22D27E5 /* снеговик-4.caf */; };
 		1F5C778A71E6D295FA09A281 /* Bundle+Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED29B41563DCD92BB289AE8 /* Bundle+Core.swift */; };
+		20F216A224BDD998480155EB /* лапша-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = C64BC71F17E47ED252625DC3 /* лапша-2.caf */; };
+		20F407D52C3C5476A06A8686 /* соль-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = CB3FF66DF1844E71E92B51CF /* соль-2.caf */; };
+		213CA458892E5BDE20149658 /* динозавр-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5013B31D12044D614A301F40 /* динозавр-3.caf */; };
+		229CBDA929383CCED954948E /* вампир-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = CF1E95A0AEBBE6C72AE8CA39 /* вампир-3.caf */; };
 		22A7664E175B0EB8D63E5C60 /* UIFontDescriptor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E89F4EDD4854328D9C5117 /* UIFontDescriptor+Extensions.swift */; };
+		235C1C4E6F4691DDEFC97BFC /* лес-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8466330B17110C625476DD44 /* лес-2.caf */; };
 		2368EB91CEC3D33D5C2FBAD4 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27F56FCFD62CDAA0CA9A7CF /* Core.framework */; };
 		2421378AFB48439F9B15D4E0 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443245A212C6C44B1669905 /* KeyView.swift */; };
+		26EB37FF3E2A661AFA782F14 /* санки-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 705139BAE434481A7C22D58F /* санки-1.caf */; };
+		2703B01EB31EC9C71A05F54A /* машина-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0CAE714C99E5340C952B1078 /* машина-2.caf */; };
+		28D3BE5FC6C9FB9048729FE7 /* ручка-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 979CDBCF674F008E204FF2DF /* ручка-3.caf */; };
+		29A735E013A65611D13E7C91 /* пожар-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA7FD01D74D80545C04CEB3 /* пожар-3.caf */; };
+		2A6573CF940FB3B470E181F1 /* пони-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5023E08861DE15109AF6F9BE /* пони-2.caf */; };
 		2AAC9C9A92A5E5B16F73D48F /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9ECB0993564295AF94924A /* Int+Extensions.swift */; };
+		2B1A34DBF82852E78CBD48CA /* лава-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = E81ED604BE67119194A9B569 /* лава-1.caf */; };
+		2D344C41DEB078B82CC0397D /* посуда-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 88F3816DEDA4530446C74E6E /* посуда-1.caf */; };
+		2D9CE92B15A211DFE3559618 /* лейка-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0A42F00628318D9AFEF2E695 /* лейка-2.caf */; };
+		2E107BE3186611138E67BD27 /* билет-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 11983EF137E74CEA51C25D18 /* билет-2.caf */; };
+		300686C4635F06190C04CBF1 /* сачок-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 41BACE5C4A16FE458B108B2E /* сачок-1.caf */; };
+		314934C4746633F93308A8BE /* динозавр-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7073EE549A72B3FF10BED43E /* динозавр-4.caf */; };
+		315089667E1B453DE1AA82D9 /* лебедь-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4B48B051B0F96187002554A7 /* лебедь-2.caf */; };
+		325EF543401A893E31D97D69 /* почта-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = E276D29A1E653926749757ED /* почта-1.caf */; };
+		32D95FC946A8F400C0D76378 /* лейка-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3C917E3A39C1F210BD973638 /* лейка-3.caf */; };
+		331BFE0EEF2B75A27DBCDD8A /* вампир-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = B7EF78C4C88B12E82F99B74F /* вампир-2.caf */; };
+		33DAA96F6465563737554AE0 /* лама-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDA52641B2BA0C85E8653AEE /* лама-1.caf */; };
+		34CAB7BDA3EAC36BDE8B5DFA /* сок-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = D3F70CA06F96908074F9F91D /* сок-1.caf */; };
+		34F28582D922091F7969F1F2 /* пожар-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 577A8321817B5DAFDF8529F9 /* пожар-1.caf */; };
+		34F77E42370479B829696CB9 /* снеговик-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = FCBF44304EB116DEAFFC8719 /* снеговик-2.caf */; };
+		35336354DE0224F9E919A4E1 /* соль-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4401FC8AAA82AF700E1D290A /* соль-1.caf */; };
 		35CBB98C2DB58238ED264F37 /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE856C1C4564E7AF968BFDCF /* UIComponents.framework */; };
 		38007153E86344A8E8661AAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE0F91BED29C861366E9057 /* Images.xcassets */; };
-		395DF51226400D5100DAFC42 /* ParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395DF51126400D5100DAFC42 /* ParserTests.swift */; };
-		395DF514264029ED00DAFC42 /* Image+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395DF513264029ED00DAFC42 /* Image+Trim.swift */; };
+		38916EC9BB8E1D94D04FD0DE /* ванна-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 35F74D074DD94F269919FC89 /* ванна-2.caf */; };
+		394ABECE63281F2709117E7E /* ручка-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC08878A00F02C0BC4A26580 /* ручка-1.caf */; };
+		39C44DFB6D434B7B20CF324F /* салют-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3BB317394AF246D73BD2316D /* салют-2.caf */; };
 		3A011C88D02D74A9309D14A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015B3EE6E28166B492855ABB /* LaunchScreen.storyboard */; };
+		3A468AD732AF65233343C9D7 /* очки-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 93E160F3D0B204B0601E7D07 /* очки-3.caf */; };
+		3B3B36ACE7CD1DD0A3B5218E /* камень-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 12C4E81685885880CC402D47 /* камень-1.caf */; };
+		3E9EDC60141887504699B3EF /* лужа-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = B10079C11F97FB503233FCB8 /* лужа-1.caf */; };
+		3E9FDACCA4E757BF7A3BC2BF /* сапог-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = BCAFA60C9BF65EFEFD542718 /* сапог-3.caf */; };
+		41520316AFE2F1D3CA97C6A4 /* подушка-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2C7C24DAA5BE5DD5014355F2 /* подушка-1.caf */; };
 		419ABC9EBD95347205CFB1F8 /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910E1AEF36E27802DD5BDE57 /* Theme.xcassets */; };
 		421DC15FFF88F959071110D6 /* GenericCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89338F8C3CB1EA1859974681 /* GenericCell.swift */; };
 		4418F2CE873D06644E152E30 /* Bundle+UIComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434136843FFF044E77408F4 /* Bundle+UIComponents.swift */; };
 		45D3F483A9962C3B28A0A5E8 /* Curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C051D2F9BB8D303EE41D408E /* Curry.swift */; };
+		46B469341568E387FAF2DB85 /* Image+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D874516DD8E52BCF126A9 /* Image+Trim.swift */; };
+		4821F3375CB3FDE5BE4B369E /* лама-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5B1C267B8AD8DBF9BDCEE54F /* лама-2.caf */; };
+		490B2EE8F6C26426D47786AD /* сумка-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = FD309695023180C5454061E8 /* сумка-3.caf */; };
+		4A409F53D303ACED55C0ACDD /* кактус-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = CE2EDD5130B5789BD3B2F731 /* кактус-3.caf */; };
+		4BE62EA82FC721C575A5237A /* палка-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = FFC63598FC887B3FF9ABD5E1 /* палка-3.caf */; };
+		4C2DC294A03C709D4EDE6A7F /* письмо-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3FB863C1BD9299701002F255 /* письмо-3.caf */; };
+		4DEBCBA3E8253B7BEA5B73AE /* поезд-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = AA2E3F98D9E702E48BBB7ADB /* поезд-1.caf */; };
 		4E628728783D4AA6D3BEB471 /* Matias.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 910AFC2AF4117031AFFB55E4 /* Matias.ttf */; };
 		4F51C42D034BE934A295982F /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27F56FCFD62CDAA0CA9A7CF /* Core.framework */; };
 		513FD1904BEBC178482158A4 /* Fonts+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB120AC1F09D2D88DF981A7D /* Fonts+App.swift */; };
+		5375B0A4B7F91B0E3F25D22F /* кот-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 63E300FAC1C6874D598ABF09 /* кот-1.caf */; };
+		54B17AE9C6557E0D27812719 /* юбка-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8E9C521426A19F72CC6A610E /* юбка-2.caf */; };
 		54BCF266F10296B82E418F5C /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8886EB342DABFF87E1C3C59 /* Button.swift */; };
+		5584A87D04A5608421C7A47C /* сатурн-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 910BAA477AC4C7C7AEEE2E33 /* сатурн-3.caf */; };
+		5A6B3E05107036E6BC372EE4 /* суп-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 24CCE5D4E246367B8AA18BC1 /* суп-1.caf */; };
 		5B09F8D366F4E4ED3FF3A950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF17824B5D0ADBFE24019CB9 /* Assets.xcassets */; };
+		5B79F5D04401B9EC55DC44B4 /* подушка-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4BE6A63BE59FC0F04F555E0C /* подушка-2.caf */; };
+		5CF3D3FC59AD47F85BE96BE8 /* палка-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 684515A7E39BCD9811763E2D /* палка-1.caf */; };
+		62835497E438BD7C9953DE92 /* домик-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 013942782E5CFED8262EFFDD /* домик-1.caf */; };
+		62D14C665FDC871F77343D7A /* камень-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0A037E44B7FE0D0B0FAABF0F /* камень-3.caf */; };
+		6343114E42A48CAEC51E0AD5 /* ParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A9AAE3BB6743C6F7DAC808 /* ParserTests.swift */; };
 		64841883DA5E8B4C8F61EDB6 /* ViewGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B97E82A290C48CF2BAE58F /* ViewGame.swift */; };
+		64A8F0D140BB48D8D4B62A59 /* посуда-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 11A118B9DA09E2580658F492 /* посуда-3.caf */; };
+		661E5734CF8B17CC3548EAC7 /* лупа-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8C244E48B34318282DB6B3A7 /* лупа-1.caf */; };
+		685E1CCD6C6AEA636C45C2F1 /* мороженое-5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3D7EBC17133FE1669B616065 /* мороженое-5.caf */; };
+		68B91E2E308DB05A52AB08A1 /* лес-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 76FE2C35CBC6B87FD0F45C50 /* лес-1.caf */; };
+		68BEFFB52E0F2C11ACDF8A7B /* вампир-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = C2DA8D006C50FFC1567042C2 /* вампир-1.caf */; };
+		69831E4E554CCE6129C8D3B2 /* туфли-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = A5079103E53CE9B51053E8FA /* туфли-1.caf */; };
+		6B69439566C0D9EA358094FA /* поезд-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = A54C94AC6DEE75DDA32CFF62 /* поезд-2.caf */; };
+		6C4DC71A2CDBACCA45BB3494 /* салют-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = EEC80743149EB44B00EC4601 /* салют-1.caf */; };
+		6C704063D6B14CFF4C1A9987 /* лупа-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 377F2D07FC4456FB834F4014 /* лупа-2.caf */; };
+		6C8E33E363A1DFA30C31E777 /* усы-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 798275780771068E7314DDCD /* усы-2.caf */; };
+		6CD16A8EB1885373063DDFAE /* мороженое-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 90340F1F5A71A46963F33E52 /* мороженое-2.caf */; };
+		6D12F93174F78B721746EA30 /* лава-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 365C1C293597D02AD4143C48 /* лава-2.caf */; };
+		6ECDBAAB5BE42AB58694F587 /* динозавр-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4411B5AD307666CD009A2013 /* динозавр-1.caf */; };
+		6F067C91126F237DB4FE28C3 /* факел-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 39F9EAF55169E498B8162F95 /* факел-3.caf */; };
+		6F3E753683E4DB85217B6493 /* пони-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7C90ACAA9804CE771B232F9C /* пони-1.caf */; };
+		6F733D5277678ABB304FB251 /* папа-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7E20E6DDCF67CD2E6179910C /* папа-2.caf */; };
+		6FB7B769F5357627033DBB45 /* сок-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 76CD9BD1514C002AB6CC463A /* сок-2.caf */; };
+		6FDB99F16F566EFDF544D021 /* Strings+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C7E10513339F396377C4E /* Strings+App.swift */; };
+		7046105C3C0732C9092FA500 /* динозавр-5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7BE594492EB44E325C86AC5A /* динозавр-5.caf */; };
+		705EEB56712EF883AABEB7CA /* кот-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29786A19E7190E3CFE5321CA /* кот-2.caf */; };
+		70DECF28DD2A50AD3417F650 /* луна-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = B98D8AD45AED17164B2F58BF /* луна-2.caf */; };
+		72575A06076CA6AE56A5753E /* нога-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = C29E4836BA2325CD72E45745 /* нога-2.caf */; };
 		7580C460EF659F7822A817B9 /* PropsRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB463FF7C7FF5CE74F1876A0 /* PropsRenderer.swift */; };
 		75FB18E1853554B7B8F72B16 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508FF18E65A58BB24B43892E /* PageView.swift */; };
+		769DEA32D383EE11596086C5 /* рыба-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4B96AB9765FD1868793EDE /* рыба-2.caf */; };
+		7810D1B44DE1273FFFB46E9D /* лебедь-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 9734346E0AD5B65E6F445E9A /* лебедь-1.caf */; };
+		7D40681D814C3401AC52AFD3 /* факел-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 71E411E43785AADE030104F2 /* факел-2.caf */; };
 		7D7656A786FB8C35E57A69CF /* Wes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7404AB70EE803C5F270D2DE /* Wes.ttf */; };
+		7E515EB93DE4D50F50E75A73 /* ёж-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = B05DDFC1ACA694169C97D4DD /* ёж-1.caf */; };
 		7F49A4ADDEAC21EFD19BCC2E /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4493F6194DE34D17BD8B03B3 /* View.swift */; };
+		8162192B61632F0A0F2AB18B /* яма-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 09E4DDEF8768FF0A6A304DA5 /* яма-2.caf */; };
+		8386D1A5192C6347AEADC306 /* усы-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = BB85B998F5396EA17602A17A /* усы-1.caf */; };
+		83CAF0BEA88E7F9696AA7D68 /* папа-2-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7D51B8C7C1F97D45CDC74556 /* папа-2-2.caf */; };
+		859F74DE6E8110B388C8C2DE /* сова-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = CB35611FDF9760EB85905C74 /* сова-2.caf */; };
+		85D27FF058390F63C898E6EE /* дым-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 04C4A1C8D6847B68479FC6A2 /* дым-1.caf */; };
 		862BCF49FB14F9A01AFBBC84 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02FE399D377B0C753C0D2AE /* Array+Extensions.swift */; };
-		88A331E0BE92DD2FBF1A3804 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E6C3C471058932F2623422 /* String+Extensions.swift */; };
+		8678BB046A3F918AC79F1DE7 /* сапог-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = AD999FB2B1A001B528D7E6A7 /* сапог-1.caf */; };
+		867F923EB9879D80FF2E4D31 /* папа-1-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 01B16720F477A8B61061E4CE /* папа-1-2.caf */; };
+		89F2425C57FE5149E543430F /* кактус-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = DFBB08C620BF127DA4167DFF /* кактус-4.caf */; };
 		8B2CC294FCCFE5016553275B /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FED8DECC8216C22C68DC18 /* Collection+Extensions.swift */; };
+		8E1D2AE3559253C9ADEA9895 /* туфли-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = D5B1F863036EE64054CC12FF /* туфли-3.caf */; };
+		8FC3C2F2EB97158446FCA3AB /* рыба-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = B2F4F04263DCA588081ED70B /* рыба-1.caf */; };
+		905B4CE7AFEAE2AAC63A7206 /* яма-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 031920B61F4FB31F63759AC2 /* яма-1.caf */; };
+		91BFB827070310040F0290AD /* лебедь-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1E85FA3AA5A9E789FA2959F8 /* лебедь-3.caf */; };
+		926B29B3DB5305CB12AB68C3 /* ручка-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = A8ECF7A3D4CDD8DB908B0F41 /* ручка-2.caf */; };
 		982FFF02E74DD1057E0D33B2 /* Lumberjack.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7AE569843B150F3485287F77 /* Lumberjack.otf */; };
+		9864D3A6EFF11BCC55E1636B /* подушка-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 26C67C57073212CFE4F6630F /* подушка-4.caf */; };
+		99430693E8CC1E552866D7B3 /* посуда-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3266814BA092043D2763E4 /* посуда-2.caf */; };
+		99DD1103333B0CDFB2FC029F /* сумка-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0D99F313FE2B6E3DE19B9594 /* сумка-1.caf */; };
+		9A76B9D298C8F2A88E589113 /* сумка-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = C0B0193A1B1584E83469B33B /* сумка-2.caf */; };
+		9C0C6E460CD23CAE23C76A14 /* вампир-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = E333434DBFF150F14043436F /* вампир-4.caf */; };
+		9EF6AB02DBBED55080AF530C /* жаба-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3718CCC45B2BF2DC5DDCC071 /* жаба-2.caf */; };
 		9FAF2392A6428D5EF2F5AFA8 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF599F9F8CA5213A93A0D20E /* Store.swift */; };
+		A04D8E4402FB6170FDCB9F77 /* Snapshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609B0A34C630F7F4D569E23A /* Snapshots.swift */; };
 		A05C5F4E5EFAF58CDC84E1CC /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC11CD8318D8EEFE6AAF8FA /* Palette.swift */; };
 		A09A36CF130123787C217CA1 /* GameTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E987B346A0FDD71DF0AA82 /* GameTestData.swift */; };
+		A10B1944BF8081786947FFBA /* сатурн-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 54E6705709BA5FBDE3BB66EF /* сатурн-1.caf */; };
+		A1D46A9568091E138590F40D /* сачок-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CDD76FCD97D5B673BF88D1F /* сачок-3.caf */; };
 		A3F0E1A3CAD61841DE414099 /* CollectionCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896CF3A733B350B748B611F6 /* CollectionCellView.swift */; };
+		A4C6CD6F96F4C223A9E060F3 /* очки-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2C6E1A022D2ED4DC478D5E91 /* очки-2.caf */; };
+		A9FEEE6266E6FE48CFED0594 /* туча-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC9856CD7F529D2E46C61FF7 /* туча-1.caf */; };
+		AB9DAE6BD651E2B8CEF5BBD6 /* юбка-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = D2E1C321955022CA422D2007 /* юбка-3.caf */; };
+		ACE8641CDF2C02AF50EF29EE /* рука-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = EF8650025459A19712529784 /* рука-2.caf */; };
+		B091DF008FF56197034E8E3A /* лимон-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = ED4A05409857FDE493E20B10 /* лимон-3.caf */; };
 		B294ACFE5158D1E276BBACA3 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3DEE630686251FE66CDB7 /* Size.swift */; };
+		B321A1C1D9E5A6CD4272024A /* музыка-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = FFFB3842678426688905E348 /* музыка-1.caf */; };
 		B36FF929FB19EA7E934C6256 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80686225FC147C3032FBA1D /* Theme.swift */; };
+		B3F75C0F07DD286A420C97D8 /* машина-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 55A672CC5CA7E60CF4F22359 /* машина-3.caf */; };
+		B4F5FE8B096743A00C0D301A /* ванна-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 492393B110FE0C54531E2989 /* ванна-3.caf */; };
+		B62D2BCAB16067DBDFC3274F /* оса-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1BEEF4F2F56BAD4B3E167947 /* оса-1.caf */; };
+		B941EE63031DB22DEC674135 /* кактус-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = CCD9974873DAF6B3DE3D484A /* кактус-2.caf */; };
 		B993307173A3ACF16E1A7ABA /* RemoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009311B795CA113CFA4CB84 /* RemoteData.swift */; };
+		BA6C72B9C6C965B1C3437679 /* шея-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = CF8E0EFF2FBE38F23D3CB422 /* шея-1.caf */; };
+		BA7A84B6DCA59DA0176D9C47 /* сачок-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 564641ABF57E89285E9A1E8E /* сачок-2.caf */; };
+		BB6A1B0606965921DEDB43F5 /* собака-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 89F29BED5DD489C7347E123D /* собака-2.caf */; };
+		BB733601A24F5976AE175D7F /* музыка-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = A0A591AD7D7C4DED417AF895 /* музыка-2.caf */; };
 		BB85E0CBD5A5933C0A1F933B /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4E5324ABA2026DDD48539 /* Style.swift */; };
 		BF73ED3571DC82B87D5C54D6 /* DifferenceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 33997B073A480E9B4B101A0C /* DifferenceKit */; };
+		C30A28D8DC2565C79F9C9937 /* письмо-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = F91D10CBDDC7AFDCF8BB5DD0 /* письмо-2.caf */; };
 		C33D1A865C5F99B5ECDC1F03 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FE79AF8CEA75E5A06D3102 /* AudioPlayer.swift */; };
+		C340610DED64245C56CC18B7 /* шея-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = B8B17621F67753E3D3A468E9 /* шея-2.caf */; };
+		C7348AC1045241071DD9472C /* домик-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = E415F9812DD6C0E65D17E41F /* домик-2.caf */; };
 		C77D3A20676BDDA2898FD12C /* Assets+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA391492B71559F39669A82 /* Assets+App.swift */; };
+		C7982BD55E9E220C40175643 /* билет-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7B61EFD7D6AB6EF63E33126F /* билет-3.caf */; };
 		C7AC829C9D7EF2095990DE97 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C64079A16DCC8DCC4F926C7 /* KeyboardView.swift */; };
 		C8E259168D0024ABF27C7AD7 /* Bundle+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE0B8C4C8BEB2DEBCE15BC /* Bundle+App.swift */; };
+		C919F2552BDC5FA40CDC4F4A /* лапша-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3A78BDFE9EDA8593F140C75C /* лапша-1.caf */; };
+		C96F15210CC6103D6378109C /* снеговик-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1C23A64AEE8D5305098E7F89 /* снеговик-1.caf */; };
 		CA317E6102E45DB8CFFD7418 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E3557FB1341A1A0252A50 /* ViewController.swift */; };
+		CB10A8053E55E1A22E6A1F4F /* собака-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 61F622F07031A95C05EDDD91 /* собака-1.caf */; };
 		CC949772F4CA2F8678A5FAAC /* dummy in Resources */ = {isa = PBXBuildFile; fileRef = 219487E036E70C6B6C1D4E21 /* dummy */; };
+		CC981DF16618BB331110BE2B /* снеговик-5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 39692C819F52D3EAF1E7BCD3 /* снеговик-5.caf */; };
+		CCACEEE5CD3D1C9B46715075 /* фея-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = B35B0E9295ECFC9D65C06904 /* фея-1.caf */; };
+		CF49E46D53956BDAB034CCDB /* ласты-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = A4F2BD86E3E08C21016E4B58 /* ласты-3.caf */; };
+		CF5ED426E4493DD0A995EFA3 /* сапог-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1D9D6B6028D44A0439203296 /* сапог-2.caf */; };
+		CFDF03D6C3F6D8430AB8190A /* салют-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 9C43F59146B23049A8DF62C4 /* салют-3.caf */; };
+		D17F486DFB17709AD886527F /* туча-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 55745DFB174C722D49C7C76F /* туча-2.caf */; };
+		D46D4AA47EF385CFCED9D369 /* пар-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7DABE12EB8C02F531F363603 /* пар-2.caf */; };
+		D4928B68A193496FE053BB41 /* динозавр-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = BCB94F48F76118EDA7AAC16D /* динозавр-2.caf */; };
 		D85BEFADCEBA2210A29829EC /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D99D9CC9A5EC77C4DFA17 /* Common.swift */; };
+		DA0B602D2B23FF5712597285 /* домик-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = D37C9EA166B9E47D2D50BA8E /* домик-3.caf */; };
+		DB512D667FB34C0B1B3A8532 /* мак-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = CE343F6F4CEB47D10EAEB05B /* мак-2.caf */; };
+		DD2309208379CA4F07D4F188 /* лужа-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 11A7AACA9F344CC796ECED08 /* лужа-2.caf */; };
+		DD6F0A7EA2F11B9FAEF4BD39 /* ласты-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 91ED227BE1BCFF36244260A7 /* ласты-2.caf */; };
 		DEE2A56595FE685F2DA82DCA /* dummy in Resources */ = {isa = PBXBuildFile; fileRef = DFB0530F74A816AF9051D17A /* dummy */; };
 		DF5FA068653D229D2BDBDB77 /* Assets+UIComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD4A9E674B7A9F43DBBB3DE /* Assets+UIComponents.swift */; };
+		E00D8D52E8C21A1355EAE682 /* письмо-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = BBC2CFBF9F54DA30A44669E7 /* письмо-1.caf */; };
+		E22060CD3D8569CE67283374 /* ванна-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7CF6C71EBC73AEFF5C36142D /* ванна-1.caf */; };
+		E2B8A1C8CD4BD6E82E3907A4 /* почта-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 71862E2325A9CD36BE196DF0 /* почта-3.caf */; };
+		E2BBDA3E3669F35C4DA998F9 /* собака-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 22F14D0CB101A37DF3AD83F4 /* собака-3.caf */; };
+		E32325D43F490CB4777F77B3 /* мороженое-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 75397CAC6E369C343EF3ECFB /* мороженое-3.caf */; };
+		E3B61677F5843029297167DC /* мак-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4B707EDB0A179C6E4AE1A0B4 /* мак-1.caf */; };
+		E402F0C9916134CE06419286 /* снеговик-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = DDCCF1627DBADB3B5B204E0B /* снеговик-3.caf */; };
+		E4F742D030EF3C19AB0E455D /* мороженое-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = B3CCA6079F46FBAE19F8A0B4 /* мороженое-1.caf */; };
 		E7E8FE2E70BF467435377840 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2946F32A86212B42808C4D03 /* StackView.swift */; };
+		E978A15F37E52482C7964FAA /* билет-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 54BE1E3CFD5068E4C781D46C /* билет-1.caf */; };
+		E9FEEF6305A0B7D3989FD328 /* рука-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = F95D21BCFDEA41B8462712BA /* рука-1.caf */; };
+		EA048474E7DBCD5C8B2FFDB3 /* туфли-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D1D21DB8C33100457E076B6 /* туфли-2.caf */; };
+		EA13E982B1985A69EE5A905F /* юбка-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7386E8A17E1F6472C6A48817 /* юбка-1.caf */; };
 		EA379FFB9D6C6DE2842E47B0 /* PageGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F36B5608A07410D958A9224 /* PageGame.swift */; };
+		EB7A74443D21A635AE777804 /* лимон-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 376D5A04061C51F292E6A8A5 /* лимон-2.caf */; };
+		EF0B2022E31FF09815BBE376 /* ласты-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = A4D0065563EE6F5D18A4273C /* ласты-1.caf */; };
+		EFA4927CE11DD1ECF2F75A25 /* папа-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8A978432DEFF3452CDCBDC5B /* папа-1.caf */; };
+		EFDDFA6FE60EA04711168E8E /* лапша-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = D683ED3E61136BAE27E9F281 /* лапша-3.caf */; };
 		F0C2496F7F6D96AC67BC35CD /* VCGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FEB57126CC644C5621544 /* VCGame.swift */; };
+		F1EA69AD3ED10339E2B2EE89 /* санки-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 453391E7DBF64FF00D01165B /* санки-2.caf */; };
+		F1FDE8FC2693567A324F304A /* луна-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = B329AE93B4904359AA22F05F /* луна-1.caf */; };
+		F32572EB204FBC54229FFAE6 /* палка-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = DBDA83C7044D56EEEFDB32F9 /* палка-2.caf */; };
+		F35B71E650BA18DEF5BB524A /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 24E67CF246C927E0CCF09F7F /* SnapshotTesting */; };
+		F479BA6917F9BFB78D9B5E0F /* поезд-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 327879531F8CF12B833D31DB /* поезд-4.caf */; };
+		F525A5579A506687120A5DE1 /* мороженое-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 839A1E269FB4853A8A2CED97 /* мороженое-4.caf */; };
+		F531A862A9F288E3BA207943 /* санки-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = A211546EEF847C12C7BBAD9F /* санки-3.caf */; };
+		F5C062066DF358E106085EFC /* поезд-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 327CD513FAFEF1D29C067CF9 /* поезд-3.caf */; };
+		F830C7620A38274EAD59CA4C /* очки-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 626578612875C62DAE5DB870 /* очки-1.caf */; };
+		F9A0141B41EEE59D20CED2FD /* лейка-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8CC3AC2C683E11B711E90793 /* лейка-1.caf */; };
+		FA22661F18565701A7597FBC /* подушка-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = D02EC2C909334274593ECDB3 /* подушка-3.caf */; };
+		FA63EF0131BB52B781206C25 /* фея-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = E890B8909C5900FD259920C9 /* фея-2.caf */; };
+		FA7368A8FC1DB8004151B91E /* дым-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = B71E2216E5A6C7B2A5D31225 /* дым-2.caf */; };
+		FA8A7A9B67720CC1F94DB574 /* факел-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3423B8F2103AC04B04E8CE6E /* факел-1.caf */; };
+		FC7026A06CB3B26A81A037CD /* оса-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 673BE062FDD1E0315F64E385 /* оса-2.caf */; };
+		FF88E3B00E348FBE86B0DEA5 /* кактус-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 9539BCD15847CCD51165B493 /* кактус-1.caf */; };
+		FFA74241D8667A7B6190516D /* лимон-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 22BFBAFB9CF47790E36B0618 /* лимон-1.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,66 +319,240 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		013942782E5CFED8262EFFDD /* домик-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "домик-1.caf"; sourceTree = "<group>"; };
+		01B16720F477A8B61061E4CE /* папа-1-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "папа-1-2.caf"; sourceTree = "<group>"; };
+		026AA9B801C175C4CC698870 /* сатурн-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "сатурн-4.caf"; sourceTree = "<group>"; };
+		031920B61F4FB31F63759AC2 /* яма-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "яма-1.caf"; sourceTree = "<group>"; };
+		04C4A1C8D6847B68479FC6A2 /* дым-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "дым-1.caf"; sourceTree = "<group>"; };
+		08637DC0C3253ED9FA5CE22F /* жаба-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "жаба-1.caf"; sourceTree = "<group>"; };
+		09E4DDEF8768FF0A6A304DA5 /* яма-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "яма-2.caf"; sourceTree = "<group>"; };
+		0A037E44B7FE0D0B0FAABF0F /* камень-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "камень-3.caf"; sourceTree = "<group>"; };
+		0A42F00628318D9AFEF2E695 /* лейка-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лейка-2.caf"; sourceTree = "<group>"; };
 		0A4D99D9CC9A5EC77C4DFA17 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		0AD06DCA83A7CEFCDCA3E7D9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CAE714C99E5340C952B1078 /* машина-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "машина-2.caf"; sourceTree = "<group>"; };
+		0D99F313FE2B6E3DE19B9594 /* сумка-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "сумка-1.caf"; sourceTree = "<group>"; };
 		0ED4E5324ABA2026DDD48539 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		0F4B96AB9765FD1868793EDE /* рыба-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "рыба-2.caf"; sourceTree = "<group>"; };
+		11983EF137E74CEA51C25D18 /* билет-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "билет-2.caf"; sourceTree = "<group>"; };
+		11A118B9DA09E2580658F492 /* посуда-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "посуда-3.caf"; sourceTree = "<group>"; };
+		11A7AACA9F344CC796ECED08 /* лужа-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лужа-2.caf"; sourceTree = "<group>"; };
+		12C4E81685885880CC402D47 /* камень-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "камень-1.caf"; sourceTree = "<group>"; };
 		18FED8DECC8216C22C68DC18 /* Collection+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
+		1BEEF4F2F56BAD4B3E167947 /* оса-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "оса-1.caf"; sourceTree = "<group>"; };
+		1C23A64AEE8D5305098E7F89 /* снеговик-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "снеговик-1.caf"; sourceTree = "<group>"; };
+		1D9D6B6028D44A0439203296 /* сапог-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "сапог-2.caf"; sourceTree = "<group>"; };
 		1D9ECB0993564295AF94924A /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		1DA7FD01D74D80545C04CEB3 /* пожар-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "пожар-3.caf"; sourceTree = "<group>"; };
+		1E85FA3AA5A9E789FA2959F8 /* лебедь-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лебедь-3.caf"; sourceTree = "<group>"; };
+		211A5F1E3EF914EF2C181697 /* машина-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "машина-1.caf"; sourceTree = "<group>"; };
 		219487E036E70C6B6C1D4E21 /* dummy */ = {isa = PBXFileReference; lastKnownFileType = text; path = dummy; sourceTree = "<group>"; };
+		22BFBAFB9CF47790E36B0618 /* лимон-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лимон-1.caf"; sourceTree = "<group>"; };
+		22F14D0CB101A37DF3AD83F4 /* собака-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "собака-3.caf"; sourceTree = "<group>"; };
 		2434136843FFF044E77408F4 /* Bundle+UIComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+UIComponents.swift"; sourceTree = "<group>"; };
+		24CCE5D4E246367B8AA18BC1 /* суп-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "суп-1.caf"; sourceTree = "<group>"; };
+		26C67C57073212CFE4F6630F /* подушка-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "подушка-4.caf"; sourceTree = "<group>"; };
+		2834ED6D82876BD0F88CCFCC /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		2946F32A86212B42808C4D03 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		29786A19E7190E3CFE5321CA /* кот-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "кот-2.caf"; sourceTree = "<group>"; };
+		2B20BFD957E44602E76486C5 /* пожар-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "пожар-2.caf"; sourceTree = "<group>"; };
+		2C6E1A022D2ED4DC478D5E91 /* очки-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "очки-2.caf"; sourceTree = "<group>"; };
+		2C7C24DAA5BE5DD5014355F2 /* подушка-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "подушка-1.caf"; sourceTree = "<group>"; };
 		2CC11CD8318D8EEFE6AAF8FA /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		2CDD76FCD97D5B673BF88D1F /* сачок-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "сачок-3.caf"; sourceTree = "<group>"; };
 		3009311B795CA113CFA4CB84 /* RemoteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteData.swift; sourceTree = "<group>"; };
 		30F3DEE630686251FE66CDB7 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
-		395DF51126400D5100DAFC42 /* ParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserTests.swift; sourceTree = "<group>"; };
-		395DF513264029ED00DAFC42 /* Image+Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Trim.swift"; sourceTree = "<group>"; };
+		327879531F8CF12B833D31DB /* поезд-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "поезд-4.caf"; sourceTree = "<group>"; };
+		327CD513FAFEF1D29C067CF9 /* поезд-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "поезд-3.caf"; sourceTree = "<group>"; };
+		3423B8F2103AC04B04E8CE6E /* факел-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "факел-1.caf"; sourceTree = "<group>"; };
+		35F74D074DD94F269919FC89 /* ванна-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ванна-2.caf"; sourceTree = "<group>"; };
+		365C1C293597D02AD4143C48 /* лава-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лава-2.caf"; sourceTree = "<group>"; };
+		3718CCC45B2BF2DC5DDCC071 /* жаба-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "жаба-2.caf"; sourceTree = "<group>"; };
+		376D5A04061C51F292E6A8A5 /* лимон-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лимон-2.caf"; sourceTree = "<group>"; };
+		377F2D07FC4456FB834F4014 /* лупа-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лупа-2.caf"; sourceTree = "<group>"; };
+		39599EF6FA9D24CDD22D27E5 /* снеговик-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "снеговик-4.caf"; sourceTree = "<group>"; };
+		39692C819F52D3EAF1E7BCD3 /* снеговик-5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "снеговик-5.caf"; sourceTree = "<group>"; };
+		39F9EAF55169E498B8162F95 /* факел-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "факел-3.caf"; sourceTree = "<group>"; };
+		3A78BDFE9EDA8593F140C75C /* лапша-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лапша-1.caf"; sourceTree = "<group>"; };
 		3AF01ED922D52F36BA442E2B /* UIComponents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = UIComponents.plist; sourceTree = "<group>"; };
+		3BB317394AF246D73BD2316D /* салют-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "салют-2.caf"; sourceTree = "<group>"; };
+		3C917E3A39C1F210BD973638 /* лейка-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лейка-3.caf"; sourceTree = "<group>"; };
+		3D7EBC17133FE1669B616065 /* мороженое-5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "мороженое-5.caf"; sourceTree = "<group>"; };
+		3FB863C1BD9299701002F255 /* письмо-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "письмо-3.caf"; sourceTree = "<group>"; };
 		3FC98BF11A2A99CFADD3E8D6 /* Core.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Core.plist; sourceTree = "<group>"; };
 		405B9AA677753C3B2D87CC85 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		41BACE5C4A16FE458B108B2E /* сачок-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "сачок-1.caf"; sourceTree = "<group>"; };
+		4401FC8AAA82AF700E1D290A /* соль-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "соль-1.caf"; sourceTree = "<group>"; };
+		4411B5AD307666CD009A2013 /* динозавр-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "динозавр-1.caf"; sourceTree = "<group>"; };
 		4493F6194DE34D17BD8B03B3 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		46E6C3C471058932F2623422 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		453391E7DBF64FF00D01165B /* санки-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "санки-2.caf"; sourceTree = "<group>"; };
+		492393B110FE0C54531E2989 /* ванна-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ванна-3.caf"; sourceTree = "<group>"; };
 		4AD4A9E674B7A9F43DBBB3DE /* Assets+UIComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assets+UIComponents.swift"; sourceTree = "<group>"; };
+		4B48B051B0F96187002554A7 /* лебедь-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лебедь-2.caf"; sourceTree = "<group>"; };
+		4B707EDB0A179C6E4AE1A0B4 /* мак-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "мак-1.caf"; sourceTree = "<group>"; };
+		4BE6A63BE59FC0F04F555E0C /* подушка-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "подушка-2.caf"; sourceTree = "<group>"; };
 		4C1F465686BB272E9C5018C0 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
 		4EFE0B8C4C8BEB2DEBCE15BC /* Bundle+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+App.swift"; sourceTree = "<group>"; };
+		5013B31D12044D614A301F40 /* динозавр-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "динозавр-3.caf"; sourceTree = "<group>"; };
+		5023E08861DE15109AF6F9BE /* пони-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "пони-2.caf"; sourceTree = "<group>"; };
 		508FF18E65A58BB24B43892E /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		54BE1E3CFD5068E4C781D46C /* билет-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "билет-1.caf"; sourceTree = "<group>"; };
+		54E6705709BA5FBDE3BB66EF /* сатурн-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "сатурн-1.caf"; sourceTree = "<group>"; };
 		553B828FB8FC43AEB144E4B8 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55745DFB174C722D49C7C76F /* туча-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "туча-2.caf"; sourceTree = "<group>"; };
+		55A672CC5CA7E60CF4F22359 /* машина-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "машина-3.caf"; sourceTree = "<group>"; };
+		564641ABF57E89285E9A1E8E /* сачок-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "сачок-2.caf"; sourceTree = "<group>"; };
+		577A8321817B5DAFDF8529F9 /* пожар-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "пожар-1.caf"; sourceTree = "<group>"; };
 		5A00560944E47E65639CAEC6 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		5B1C267B8AD8DBF9BDCEE54F /* лама-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лама-2.caf"; sourceTree = "<group>"; };
 		5C64079A16DCC8DCC4F926C7 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 		5CE0F91BED29C861366E9057 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5F36B5608A07410D958A9224 /* PageGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageGame.swift; sourceTree = "<group>"; };
+		609B0A34C630F7F4D569E23A /* Snapshots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snapshots.swift; sourceTree = "<group>"; };
+		61F622F07031A95C05EDDD91 /* собака-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "собака-1.caf"; sourceTree = "<group>"; };
+		626578612875C62DAE5DB870 /* очки-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "очки-1.caf"; sourceTree = "<group>"; };
+		63E300FAC1C6874D598ABF09 /* кот-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "кот-1.caf"; sourceTree = "<group>"; };
+		673BE062FDD1E0315F64E385 /* оса-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "оса-2.caf"; sourceTree = "<group>"; };
+		684515A7E39BCD9811763E2D /* палка-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "палка-1.caf"; sourceTree = "<group>"; };
+		6B4CCEAA82B90F232207C2C9 /* ёж-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ёж-2.caf"; sourceTree = "<group>"; };
+		705139BAE434481A7C22D58F /* санки-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "санки-1.caf"; sourceTree = "<group>"; };
+		7073EE549A72B3FF10BED43E /* динозавр-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "динозавр-4.caf"; sourceTree = "<group>"; };
+		71862E2325A9CD36BE196DF0 /* почта-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "почта-3.caf"; sourceTree = "<group>"; };
+		71E411E43785AADE030104F2 /* факел-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "факел-2.caf"; sourceTree = "<group>"; };
+		7386E8A17E1F6472C6A48817 /* юбка-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "юбка-1.caf"; sourceTree = "<group>"; };
+		746C7E10513339F396377C4E /* Strings+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings+App.swift"; sourceTree = "<group>"; };
+		75397CAC6E369C343EF3ECFB /* мороженое-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "мороженое-3.caf"; sourceTree = "<group>"; };
+		76CD9BD1514C002AB6CC463A /* сок-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "сок-2.caf"; sourceTree = "<group>"; };
+		76FE2C35CBC6B87FD0F45C50 /* лес-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лес-1.caf"; sourceTree = "<group>"; };
+		798275780771068E7314DDCD /* усы-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "усы-2.caf"; sourceTree = "<group>"; };
 		7AE569843B150F3485287F77 /* Lumberjack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lumberjack.otf; sourceTree = "<group>"; };
+		7B61EFD7D6AB6EF63E33126F /* билет-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "билет-3.caf"; sourceTree = "<group>"; };
+		7BE594492EB44E325C86AC5A /* динозавр-5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "динозавр-5.caf"; sourceTree = "<group>"; };
+		7C90ACAA9804CE771B232F9C /* пони-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "пони-1.caf"; sourceTree = "<group>"; };
+		7CF6C71EBC73AEFF5C36142D /* ванна-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ванна-1.caf"; sourceTree = "<group>"; };
+		7D51B8C7C1F97D45CDC74556 /* папа-2-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "папа-2-2.caf"; sourceTree = "<group>"; };
+		7DABE12EB8C02F531F363603 /* пар-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "пар-2.caf"; sourceTree = "<group>"; };
+		7E20E6DDCF67CD2E6179910C /* папа-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "папа-2.caf"; sourceTree = "<group>"; };
+		839A1E269FB4853A8A2CED97 /* мороженое-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "мороженое-4.caf"; sourceTree = "<group>"; };
+		8466330B17110C625476DD44 /* лес-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лес-2.caf"; sourceTree = "<group>"; };
+		88F3816DEDA4530446C74E6E /* посуда-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "посуда-1.caf"; sourceTree = "<group>"; };
 		89338F8C3CB1EA1859974681 /* GenericCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCell.swift; sourceTree = "<group>"; };
 		896CF3A733B350B748B611F6 /* CollectionCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCellView.swift; sourceTree = "<group>"; };
+		89F29BED5DD489C7347E123D /* собака-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "собака-2.caf"; sourceTree = "<group>"; };
+		8A978432DEFF3452CDCBDC5B /* папа-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "папа-1.caf"; sourceTree = "<group>"; };
+		8B3266814BA092043D2763E4 /* посуда-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "посуда-2.caf"; sourceTree = "<group>"; };
+		8C244E48B34318282DB6B3A7 /* лупа-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лупа-1.caf"; sourceTree = "<group>"; };
+		8CC3AC2C683E11B711E90793 /* лейка-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лейка-1.caf"; sourceTree = "<group>"; };
+		8D1D21DB8C33100457E076B6 /* туфли-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "туфли-2.caf"; sourceTree = "<group>"; };
+		8E9C521426A19F72CC6A610E /* юбка-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "юбка-2.caf"; sourceTree = "<group>"; };
+		90340F1F5A71A46963F33E52 /* мороженое-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "мороженое-2.caf"; sourceTree = "<group>"; };
 		910AFC2AF4117031AFFB55E4 /* Matias.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Matias.ttf; sourceTree = "<group>"; };
+		910BAA477AC4C7C7AEEE2E33 /* сатурн-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "сатурн-3.caf"; sourceTree = "<group>"; };
 		910E1AEF36E27802DD5BDE57 /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
 		91E987B346A0FDD71DF0AA82 /* GameTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTestData.swift; sourceTree = "<group>"; };
+		91ED227BE1BCFF36244260A7 /* ласты-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ласты-2.caf"; sourceTree = "<group>"; };
 		926E3557FB1341A1A0252A50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93E160F3D0B204B0601E7D07 /* очки-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "очки-3.caf"; sourceTree = "<group>"; };
+		9539BCD15847CCD51165B493 /* кактус-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "кактус-1.caf"; sourceTree = "<group>"; };
 		969FEB57126CC644C5621544 /* VCGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCGame.swift; sourceTree = "<group>"; };
+		9734346E0AD5B65E6F445E9A /* лебедь-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лебедь-1.caf"; sourceTree = "<group>"; };
+		979CDBCF674F008E204FF2DF /* ручка-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ручка-3.caf"; sourceTree = "<group>"; };
 		99E89F4EDD4854328D9C5117 /* UIFontDescriptor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFontDescriptor+Extensions.swift"; sourceTree = "<group>"; };
+		9B84527C368F05BDB24FDFE2 /* суп-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "суп-2.caf"; sourceTree = "<group>"; };
+		9C43F59146B23049A8DF62C4 /* салют-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "салют-3.caf"; sourceTree = "<group>"; };
+		9C8D874516DD8E52BCF126A9 /* Image+Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Trim.swift"; sourceTree = "<group>"; };
+		A0A591AD7D7C4DED417AF895 /* музыка-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "музыка-2.caf"; sourceTree = "<group>"; };
+		A211546EEF847C12C7BBAD9F /* санки-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "санки-3.caf"; sourceTree = "<group>"; };
 		A43EDC619913EA4A08E77FAA /* ViewEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewEvent.swift; sourceTree = "<group>"; };
+		A4D0065563EE6F5D18A4273C /* ласты-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ласты-1.caf"; sourceTree = "<group>"; };
+		A4F2BD86E3E08C21016E4B58 /* ласты-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ласты-3.caf"; sourceTree = "<group>"; };
+		A5079103E53CE9B51053E8FA /* туфли-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "туфли-1.caf"; sourceTree = "<group>"; };
+		A54C94AC6DEE75DDA32CFF62 /* поезд-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "поезд-2.caf"; sourceTree = "<group>"; };
 		A7404AB70EE803C5F270D2DE /* Wes.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Wes.ttf; sourceTree = "<group>"; };
+		A8ECF7A3D4CDD8DB908B0F41 /* ручка-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ручка-2.caf"; sourceTree = "<group>"; };
+		AA2E3F98D9E702E48BBB7ADB /* поезд-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "поезд-1.caf"; sourceTree = "<group>"; };
 		AB3455602EFBE0BD1BFE40F0 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		AB463FF7C7FF5CE74F1876A0 /* PropsRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropsRenderer.swift; sourceTree = "<group>"; };
+		AD999FB2B1A001B528D7E6A7 /* сапог-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "сапог-1.caf"; sourceTree = "<group>"; };
+		AE31327A44D912765EA4FE25 /* сатурн-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "сатурн-2.caf"; sourceTree = "<group>"; };
 		AF17824B5D0ADBFE24019CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B02FE399D377B0C753C0D2AE /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		B05DDFC1ACA694169C97D4DD /* ёж-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ёж-1.caf"; sourceTree = "<group>"; };
+		B10079C11F97FB503233FCB8 /* лужа-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лужа-1.caf"; sourceTree = "<group>"; };
+		B2EFED3BC0ED83D499729956 /* музыка-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "музыка-3.caf"; sourceTree = "<group>"; };
+		B2F4F04263DCA588081ED70B /* рыба-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "рыба-1.caf"; sourceTree = "<group>"; };
+		B329AE93B4904359AA22F05F /* луна-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "луна-1.caf"; sourceTree = "<group>"; };
+		B35B0E9295ECFC9D65C06904 /* фея-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "фея-1.caf"; sourceTree = "<group>"; };
+		B3CCA6079F46FBAE19F8A0B4 /* мороженое-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "мороженое-1.caf"; sourceTree = "<group>"; };
+		B6A9AAE3BB6743C6F7DAC808 /* ParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserTests.swift; sourceTree = "<group>"; };
+		B71E2216E5A6C7B2A5D31225 /* дым-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "дым-2.caf"; sourceTree = "<group>"; };
+		B7EF78C4C88B12E82F99B74F /* вампир-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "вампир-2.caf"; sourceTree = "<group>"; };
 		B8886EB342DABFF87E1C3C59 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		B8B17621F67753E3D3A468E9 /* шея-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "шея-2.caf"; sourceTree = "<group>"; };
+		B8FF2623CCA7C3A196820D27 /* нога-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "нога-1.caf"; sourceTree = "<group>"; };
+		B98D8AD45AED17164B2F58BF /* луна-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "луна-2.caf"; sourceTree = "<group>"; };
 		B9ADFDAC0C079249AEF7D951 /* AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB85B998F5396EA17602A17A /* усы-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "усы-1.caf"; sourceTree = "<group>"; };
+		BBC2CFBF9F54DA30A44669E7 /* письмо-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "письмо-1.caf"; sourceTree = "<group>"; };
+		BCAFA60C9BF65EFEFD542718 /* сапог-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "сапог-3.caf"; sourceTree = "<group>"; };
+		BCB94F48F76118EDA7AAC16D /* динозавр-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "динозавр-2.caf"; sourceTree = "<group>"; };
+		BD9FDD5650D106A5FFC1294D /* сова-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "сова-1.caf"; sourceTree = "<group>"; };
 		BDA391492B71559F39669A82 /* Assets+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assets+App.swift"; sourceTree = "<group>"; };
+		BDE95E290EC1F9566B2E73F7 /* камень-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "камень-2.caf"; sourceTree = "<group>"; };
 		BE856C1C4564E7AF968BFDCF /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF30F0C7CB1A0182CACFD2B8 /* AppTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = AppTests.plist; sourceTree = "<group>"; };
 		C051D2F9BB8D303EE41D408E /* Curry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curry.swift; sourceTree = "<group>"; };
+		C0B0193A1B1584E83469B33B /* сумка-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "сумка-2.caf"; sourceTree = "<group>"; };
+		C29E4836BA2325CD72E45745 /* нога-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "нога-2.caf"; sourceTree = "<group>"; };
+		C2DA8D006C50FFC1567042C2 /* вампир-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "вампир-1.caf"; sourceTree = "<group>"; };
+		C5A2DE4F2695AC48FC79DE75 /* почта-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "почта-2.caf"; sourceTree = "<group>"; };
+		C64BC71F17E47ED252625DC3 /* лапша-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лапша-2.caf"; sourceTree = "<group>"; };
 		C6B1D652B9BD5C683B46F662 /* App.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = App.plist; sourceTree = "<group>"; };
-		D7267CDDC58B9A279FF10404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB35611FDF9760EB85905C74 /* сова-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "сова-2.caf"; sourceTree = "<group>"; };
+		CB3FF66DF1844E71E92B51CF /* соль-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "соль-2.caf"; sourceTree = "<group>"; };
+		CC08878A00F02C0BC4A26580 /* ручка-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ручка-1.caf"; sourceTree = "<group>"; };
+		CC9856CD7F529D2E46C61FF7 /* туча-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "туча-1.caf"; sourceTree = "<group>"; };
+		CCD9974873DAF6B3DE3D484A /* кактус-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "кактус-2.caf"; sourceTree = "<group>"; };
+		CE2EDD5130B5789BD3B2F731 /* кактус-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "кактус-3.caf"; sourceTree = "<group>"; };
+		CE343F6F4CEB47D10EAEB05B /* мак-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "мак-2.caf"; sourceTree = "<group>"; };
+		CF1E95A0AEBBE6C72AE8CA39 /* вампир-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "вампир-3.caf"; sourceTree = "<group>"; };
+		CF8E0EFF2FBE38F23D3CB422 /* шея-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "шея-1.caf"; sourceTree = "<group>"; };
+		D02EC2C909334274593ECDB3 /* подушка-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "подушка-3.caf"; sourceTree = "<group>"; };
+		D2E1C321955022CA422D2007 /* юбка-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "юбка-3.caf"; sourceTree = "<group>"; };
+		D37C9EA166B9E47D2D50BA8E /* домик-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "домик-3.caf"; sourceTree = "<group>"; };
+		D3F70CA06F96908074F9F91D /* сок-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "сок-1.caf"; sourceTree = "<group>"; };
+		D5B1F863036EE64054CC12FF /* туфли-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "туфли-3.caf"; sourceTree = "<group>"; };
+		D683ED3E61136BAE27E9F281 /* лапша-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лапша-3.caf"; sourceTree = "<group>"; };
 		DB120AC1F09D2D88DF981A7D /* Fonts+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fonts+App.swift"; sourceTree = "<group>"; };
+		DBDA83C7044D56EEEFDB32F9 /* палка-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "палка-2.caf"; sourceTree = "<group>"; };
+		DCF977F3BF5D923423DC2CFA /* пар-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "пар-1.caf"; sourceTree = "<group>"; };
+		DDCCF1627DBADB3B5B204E0B /* снеговик-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "снеговик-3.caf"; sourceTree = "<group>"; };
 		DFB0530F74A816AF9051D17A /* dummy */ = {isa = PBXFileReference; lastKnownFileType = text; path = dummy; sourceTree = "<group>"; };
+		DFBB08C620BF127DA4167DFF /* кактус-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "кактус-4.caf"; sourceTree = "<group>"; };
+		E276D29A1E653926749757ED /* почта-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "почта-1.caf"; sourceTree = "<group>"; };
+		E333434DBFF150F14043436F /* вампир-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "вампир-4.caf"; sourceTree = "<group>"; };
+		E415F9812DD6C0E65D17E41F /* домик-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "домик-2.caf"; sourceTree = "<group>"; };
 		E7B97E82A290C48CF2BAE58F /* ViewGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGame.swift; sourceTree = "<group>"; };
+		E81ED604BE67119194A9B569 /* лава-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лава-1.caf"; sourceTree = "<group>"; };
+		E890B8909C5900FD259920C9 /* фея-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "фея-2.caf"; sourceTree = "<group>"; };
+		ED4A05409857FDE493E20B10 /* лимон-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лимон-3.caf"; sourceTree = "<group>"; };
+		EDA52641B2BA0C85E8653AEE /* лама-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лама-1.caf"; sourceTree = "<group>"; };
 		EDCF6F666389315A19010D10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEC80743149EB44B00EC4601 /* салют-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "салют-1.caf"; sourceTree = "<group>"; };
 		EED29B41563DCD92BB289AE8 /* Bundle+Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Core.swift"; sourceTree = "<group>"; };
+		EF8650025459A19712529784 /* рука-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "рука-2.caf"; sourceTree = "<group>"; };
 		F27F56FCFD62CDAA0CA9A7CF /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F443245A212C6C44B1669905 /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
 		F7FE79AF8CEA75E5A06D3102 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		F80686225FC147C3032FBA1D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F91D10CBDDC7AFDCF8BB5DD0 /* письмо-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "письмо-2.caf"; sourceTree = "<group>"; };
+		F95D21BCFDEA41B8462712BA /* рука-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "рука-1.caf"; sourceTree = "<group>"; };
 		FC38A6DFDBD067306C877916 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		FCBF44304EB116DEAFFC8719 /* снеговик-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "снеговик-2.caf"; sourceTree = "<group>"; };
+		FD309695023180C5454061E8 /* сумка-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "сумка-3.caf"; sourceTree = "<group>"; };
 		FF599F9F8CA5213A93A0D20E /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		FFC63598FC887B3FF9ABD5E1 /* палка-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "палка-3.caf"; sourceTree = "<group>"; };
+		FFFB3842678426688905E348 /* музыка-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "музыка-1.caf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +570,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35B71E650BA18DEF5BB524A /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +699,14 @@
 			);
 			sourceTree = "<group>";
 		};
+		6EACC17BB2FA64A106E607AF /* Snapshots */ = {
+			isa = PBXGroup;
+			children = (
+				609B0A34C630F7F4D569E23A /* Snapshots.swift */,
+			);
+			path = Snapshots;
+			sourceTree = "<group>";
+		};
 		72DB95B2691A013DC478D22C /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -454,9 +811,9 @@
 			children = (
 				B02FE399D377B0C753C0D2AE /* Array+Extensions.swift */,
 				18FED8DECC8216C22C68DC18 /* Collection+Extensions.swift */,
+				9C8D874516DD8E52BCF126A9 /* Image+Trim.swift */,
 				1D9ECB0993564295AF94924A /* Int+Extensions.swift */,
 				AB3455602EFBE0BD1BFE40F0 /* String+Extensions.swift */,
-				395DF513264029ED00DAFC42 /* Image+Trim.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -473,6 +830,178 @@
 		B71B1D192F5C0D23A2511EB3 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				54BE1E3CFD5068E4C781D46C /* билет-1.caf */,
+				11983EF137E74CEA51C25D18 /* билет-2.caf */,
+				7B61EFD7D6AB6EF63E33126F /* билет-3.caf */,
+				C2DA8D006C50FFC1567042C2 /* вампир-1.caf */,
+				B7EF78C4C88B12E82F99B74F /* вампир-2.caf */,
+				CF1E95A0AEBBE6C72AE8CA39 /* вампир-3.caf */,
+				E333434DBFF150F14043436F /* вампир-4.caf */,
+				7CF6C71EBC73AEFF5C36142D /* ванна-1.caf */,
+				35F74D074DD94F269919FC89 /* ванна-2.caf */,
+				492393B110FE0C54531E2989 /* ванна-3.caf */,
+				4411B5AD307666CD009A2013 /* динозавр-1.caf */,
+				BCB94F48F76118EDA7AAC16D /* динозавр-2.caf */,
+				5013B31D12044D614A301F40 /* динозавр-3.caf */,
+				7073EE549A72B3FF10BED43E /* динозавр-4.caf */,
+				7BE594492EB44E325C86AC5A /* динозавр-5.caf */,
+				013942782E5CFED8262EFFDD /* домик-1.caf */,
+				E415F9812DD6C0E65D17E41F /* домик-2.caf */,
+				D37C9EA166B9E47D2D50BA8E /* домик-3.caf */,
+				04C4A1C8D6847B68479FC6A2 /* дым-1.caf */,
+				B71E2216E5A6C7B2A5D31225 /* дым-2.caf */,
+				B05DDFC1ACA694169C97D4DD /* ёж-1.caf */,
+				6B4CCEAA82B90F232207C2C9 /* ёж-2.caf */,
+				08637DC0C3253ED9FA5CE22F /* жаба-1.caf */,
+				3718CCC45B2BF2DC5DDCC071 /* жаба-2.caf */,
+				9539BCD15847CCD51165B493 /* кактус-1.caf */,
+				CCD9974873DAF6B3DE3D484A /* кактус-2.caf */,
+				CE2EDD5130B5789BD3B2F731 /* кактус-3.caf */,
+				DFBB08C620BF127DA4167DFF /* кактус-4.caf */,
+				12C4E81685885880CC402D47 /* камень-1.caf */,
+				BDE95E290EC1F9566B2E73F7 /* камень-2.caf */,
+				0A037E44B7FE0D0B0FAABF0F /* камень-3.caf */,
+				63E300FAC1C6874D598ABF09 /* кот-1.caf */,
+				29786A19E7190E3CFE5321CA /* кот-2.caf */,
+				E81ED604BE67119194A9B569 /* лава-1.caf */,
+				365C1C293597D02AD4143C48 /* лава-2.caf */,
+				EDA52641B2BA0C85E8653AEE /* лама-1.caf */,
+				5B1C267B8AD8DBF9BDCEE54F /* лама-2.caf */,
+				3A78BDFE9EDA8593F140C75C /* лапша-1.caf */,
+				C64BC71F17E47ED252625DC3 /* лапша-2.caf */,
+				D683ED3E61136BAE27E9F281 /* лапша-3.caf */,
+				A4D0065563EE6F5D18A4273C /* ласты-1.caf */,
+				91ED227BE1BCFF36244260A7 /* ласты-2.caf */,
+				A4F2BD86E3E08C21016E4B58 /* ласты-3.caf */,
+				9734346E0AD5B65E6F445E9A /* лебедь-1.caf */,
+				4B48B051B0F96187002554A7 /* лебедь-2.caf */,
+				1E85FA3AA5A9E789FA2959F8 /* лебедь-3.caf */,
+				8CC3AC2C683E11B711E90793 /* лейка-1.caf */,
+				0A42F00628318D9AFEF2E695 /* лейка-2.caf */,
+				3C917E3A39C1F210BD973638 /* лейка-3.caf */,
+				76FE2C35CBC6B87FD0F45C50 /* лес-1.caf */,
+				8466330B17110C625476DD44 /* лес-2.caf */,
+				22BFBAFB9CF47790E36B0618 /* лимон-1.caf */,
+				376D5A04061C51F292E6A8A5 /* лимон-2.caf */,
+				ED4A05409857FDE493E20B10 /* лимон-3.caf */,
+				B10079C11F97FB503233FCB8 /* лужа-1.caf */,
+				11A7AACA9F344CC796ECED08 /* лужа-2.caf */,
+				B329AE93B4904359AA22F05F /* луна-1.caf */,
+				B98D8AD45AED17164B2F58BF /* луна-2.caf */,
+				8C244E48B34318282DB6B3A7 /* лупа-1.caf */,
+				377F2D07FC4456FB834F4014 /* лупа-2.caf */,
+				4B707EDB0A179C6E4AE1A0B4 /* мак-1.caf */,
+				CE343F6F4CEB47D10EAEB05B /* мак-2.caf */,
+				211A5F1E3EF914EF2C181697 /* машина-1.caf */,
+				0CAE714C99E5340C952B1078 /* машина-2.caf */,
+				55A672CC5CA7E60CF4F22359 /* машина-3.caf */,
+				B3CCA6079F46FBAE19F8A0B4 /* мороженое-1.caf */,
+				90340F1F5A71A46963F33E52 /* мороженое-2.caf */,
+				75397CAC6E369C343EF3ECFB /* мороженое-3.caf */,
+				839A1E269FB4853A8A2CED97 /* мороженое-4.caf */,
+				3D7EBC17133FE1669B616065 /* мороженое-5.caf */,
+				FFFB3842678426688905E348 /* музыка-1.caf */,
+				A0A591AD7D7C4DED417AF895 /* музыка-2.caf */,
+				B2EFED3BC0ED83D499729956 /* музыка-3.caf */,
+				B8FF2623CCA7C3A196820D27 /* нога-1.caf */,
+				C29E4836BA2325CD72E45745 /* нога-2.caf */,
+				1BEEF4F2F56BAD4B3E167947 /* оса-1.caf */,
+				673BE062FDD1E0315F64E385 /* оса-2.caf */,
+				626578612875C62DAE5DB870 /* очки-1.caf */,
+				2C6E1A022D2ED4DC478D5E91 /* очки-2.caf */,
+				93E160F3D0B204B0601E7D07 /* очки-3.caf */,
+				684515A7E39BCD9811763E2D /* палка-1.caf */,
+				DBDA83C7044D56EEEFDB32F9 /* палка-2.caf */,
+				FFC63598FC887B3FF9ABD5E1 /* палка-3.caf */,
+				01B16720F477A8B61061E4CE /* папа-1-2.caf */,
+				8A978432DEFF3452CDCBDC5B /* папа-1.caf */,
+				7D51B8C7C1F97D45CDC74556 /* папа-2-2.caf */,
+				7E20E6DDCF67CD2E6179910C /* папа-2.caf */,
+				DCF977F3BF5D923423DC2CFA /* пар-1.caf */,
+				7DABE12EB8C02F531F363603 /* пар-2.caf */,
+				BBC2CFBF9F54DA30A44669E7 /* письмо-1.caf */,
+				F91D10CBDDC7AFDCF8BB5DD0 /* письмо-2.caf */,
+				3FB863C1BD9299701002F255 /* письмо-3.caf */,
+				2C7C24DAA5BE5DD5014355F2 /* подушка-1.caf */,
+				4BE6A63BE59FC0F04F555E0C /* подушка-2.caf */,
+				D02EC2C909334274593ECDB3 /* подушка-3.caf */,
+				26C67C57073212CFE4F6630F /* подушка-4.caf */,
+				AA2E3F98D9E702E48BBB7ADB /* поезд-1.caf */,
+				A54C94AC6DEE75DDA32CFF62 /* поезд-2.caf */,
+				327CD513FAFEF1D29C067CF9 /* поезд-3.caf */,
+				327879531F8CF12B833D31DB /* поезд-4.caf */,
+				577A8321817B5DAFDF8529F9 /* пожар-1.caf */,
+				2B20BFD957E44602E76486C5 /* пожар-2.caf */,
+				1DA7FD01D74D80545C04CEB3 /* пожар-3.caf */,
+				7C90ACAA9804CE771B232F9C /* пони-1.caf */,
+				5023E08861DE15109AF6F9BE /* пони-2.caf */,
+				88F3816DEDA4530446C74E6E /* посуда-1.caf */,
+				8B3266814BA092043D2763E4 /* посуда-2.caf */,
+				11A118B9DA09E2580658F492 /* посуда-3.caf */,
+				E276D29A1E653926749757ED /* почта-1.caf */,
+				C5A2DE4F2695AC48FC79DE75 /* почта-2.caf */,
+				71862E2325A9CD36BE196DF0 /* почта-3.caf */,
+				F95D21BCFDEA41B8462712BA /* рука-1.caf */,
+				EF8650025459A19712529784 /* рука-2.caf */,
+				CC08878A00F02C0BC4A26580 /* ручка-1.caf */,
+				A8ECF7A3D4CDD8DB908B0F41 /* ручка-2.caf */,
+				979CDBCF674F008E204FF2DF /* ручка-3.caf */,
+				B2F4F04263DCA588081ED70B /* рыба-1.caf */,
+				0F4B96AB9765FD1868793EDE /* рыба-2.caf */,
+				EEC80743149EB44B00EC4601 /* салют-1.caf */,
+				3BB317394AF246D73BD2316D /* салют-2.caf */,
+				9C43F59146B23049A8DF62C4 /* салют-3.caf */,
+				705139BAE434481A7C22D58F /* санки-1.caf */,
+				453391E7DBF64FF00D01165B /* санки-2.caf */,
+				A211546EEF847C12C7BBAD9F /* санки-3.caf */,
+				AD999FB2B1A001B528D7E6A7 /* сапог-1.caf */,
+				1D9D6B6028D44A0439203296 /* сапог-2.caf */,
+				BCAFA60C9BF65EFEFD542718 /* сапог-3.caf */,
+				54E6705709BA5FBDE3BB66EF /* сатурн-1.caf */,
+				AE31327A44D912765EA4FE25 /* сатурн-2.caf */,
+				910BAA477AC4C7C7AEEE2E33 /* сатурн-3.caf */,
+				026AA9B801C175C4CC698870 /* сатурн-4.caf */,
+				41BACE5C4A16FE458B108B2E /* сачок-1.caf */,
+				564641ABF57E89285E9A1E8E /* сачок-2.caf */,
+				2CDD76FCD97D5B673BF88D1F /* сачок-3.caf */,
+				1C23A64AEE8D5305098E7F89 /* снеговик-1.caf */,
+				FCBF44304EB116DEAFFC8719 /* снеговик-2.caf */,
+				DDCCF1627DBADB3B5B204E0B /* снеговик-3.caf */,
+				39599EF6FA9D24CDD22D27E5 /* снеговик-4.caf */,
+				39692C819F52D3EAF1E7BCD3 /* снеговик-5.caf */,
+				61F622F07031A95C05EDDD91 /* собака-1.caf */,
+				89F29BED5DD489C7347E123D /* собака-2.caf */,
+				22F14D0CB101A37DF3AD83F4 /* собака-3.caf */,
+				BD9FDD5650D106A5FFC1294D /* сова-1.caf */,
+				CB35611FDF9760EB85905C74 /* сова-2.caf */,
+				D3F70CA06F96908074F9F91D /* сок-1.caf */,
+				76CD9BD1514C002AB6CC463A /* сок-2.caf */,
+				4401FC8AAA82AF700E1D290A /* соль-1.caf */,
+				CB3FF66DF1844E71E92B51CF /* соль-2.caf */,
+				0D99F313FE2B6E3DE19B9594 /* сумка-1.caf */,
+				C0B0193A1B1584E83469B33B /* сумка-2.caf */,
+				FD309695023180C5454061E8 /* сумка-3.caf */,
+				24CCE5D4E246367B8AA18BC1 /* суп-1.caf */,
+				9B84527C368F05BDB24FDFE2 /* суп-2.caf */,
+				A5079103E53CE9B51053E8FA /* туфли-1.caf */,
+				8D1D21DB8C33100457E076B6 /* туфли-2.caf */,
+				D5B1F863036EE64054CC12FF /* туфли-3.caf */,
+				CC9856CD7F529D2E46C61FF7 /* туча-1.caf */,
+				55745DFB174C722D49C7C76F /* туча-2.caf */,
+				BB85B998F5396EA17602A17A /* усы-1.caf */,
+				798275780771068E7314DDCD /* усы-2.caf */,
+				3423B8F2103AC04B04E8CE6E /* факел-1.caf */,
+				71E411E43785AADE030104F2 /* факел-2.caf */,
+				39F9EAF55169E498B8162F95 /* факел-3.caf */,
+				B35B0E9295ECFC9D65C06904 /* фея-1.caf */,
+				E890B8909C5900FD259920C9 /* фея-2.caf */,
+				CF8E0EFF2FBE38F23D3CB422 /* шея-1.caf */,
+				B8B17621F67753E3D3A468E9 /* шея-2.caf */,
+				7386E8A17E1F6472C6A48817 /* юбка-1.caf */,
+				8E9C521426A19F72CC6A610E /* юбка-2.caf */,
+				D2E1C321955022CA422D2007 /* юбка-3.caf */,
+				031920B61F4FB31F63759AC2 /* яма-1.caf */,
+				09E4DDEF8768FF0A6A304DA5 /* яма-2.caf */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -506,6 +1035,7 @@
 				EED29B41563DCD92BB289AE8 /* Bundle+Core.swift */,
 				2434136843FFF044E77408F4 /* Bundle+UIComponents.swift */,
 				DB120AC1F09D2D88DF981A7D /* Fonts+App.swift */,
+				746C7E10513339F396377C4E /* Strings+App.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -518,7 +1048,6 @@
 				84B9E9DB4CC86EFCC1D29EAB /* Style */,
 				EDCF6F666389315A19010D10 /* AppDelegate.swift */,
 				C051D2F9BB8D303EE41D408E /* Curry.swift */,
-				46E6C3C471058932F2623422 /* String+Extensions.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -544,8 +1073,9 @@
 		D59D484C740B333D04982A3F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				6EACC17BB2FA64A106E607AF /* Snapshots */,
+				B6A9AAE3BB6743C6F7DAC808 /* ParserTests.swift */,
 				405B9AA677753C3B2D87CC85 /* Resources.swift */,
-				395DF51126400D5100DAFC42 /* ParserTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -624,6 +1154,9 @@
 				A62335D49F0A07E8E95E3850 /* PBXTargetDependency */,
 			);
 			name = AppTests;
+			packageProductDependencies = (
+				24E67CF246C927E0CCF09F7F /* SnapshotTesting */,
+			);
 			productName = AppTests;
 			productReference = B9ADFDAC0C079249AEF7D951 /* AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -653,7 +1186,7 @@
 		4C455B321F8CE7AB4861A730 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = "YouReader Inc";
+				ORGANIZATIONNAME = "Lemur Games";
 				TargetAttributes = {
 					DDC57199046B180572227F28 = {
 						TestTargetID = 3E91F917F473073D3881BCC2;
@@ -662,15 +1195,16 @@
 			};
 			buildConfigurationList = CCDF420A5725A895B8DC887D /* Build configuration list for PBXProject "YouReader" */;
 			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			developmentRegion = ru;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				Base,
 				en,
+				ru,
 			);
 			mainGroup = 6E8B464782E4F2ADB212C484;
 			packageReferences = (
 				096FB09CF469BF95E14E0AC8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				309587E0EA09BC8ED669A1AD /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
 				2CE63C14A8B64EC9C78F6E4F /* XCRemoteSwiftPackageReference "DifferenceKit" */,
 			);
 			productRefGroup = 138095A1A9EB459D8770660E /* Products */;
@@ -691,11 +1225,183 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B09F8D366F4E4ED3FF3A950 /* Assets.xcassets in Resources */,
-				3A011C88D02D74A9309D14A0 /* LaunchScreen.storyboard in Resources */,
 				982FFF02E74DD1057E0D33B2 /* Lumberjack.otf in Resources */,
 				4E628728783D4AA6D3BEB471 /* Matias.ttf in Resources */,
 				7D7656A786FB8C35E57A69CF /* Wes.ttf in Resources */,
 				38007153E86344A8E8661AAA /* Images.xcassets in Resources */,
+				E978A15F37E52482C7964FAA /* билет-1.caf in Resources */,
+				2E107BE3186611138E67BD27 /* билет-2.caf in Resources */,
+				C7982BD55E9E220C40175643 /* билет-3.caf in Resources */,
+				68BEFFB52E0F2C11ACDF8A7B /* вампир-1.caf in Resources */,
+				331BFE0EEF2B75A27DBCDD8A /* вампир-2.caf in Resources */,
+				229CBDA929383CCED954948E /* вампир-3.caf in Resources */,
+				9C0C6E460CD23CAE23C76A14 /* вампир-4.caf in Resources */,
+				E22060CD3D8569CE67283374 /* ванна-1.caf in Resources */,
+				38916EC9BB8E1D94D04FD0DE /* ванна-2.caf in Resources */,
+				B4F5FE8B096743A00C0D301A /* ванна-3.caf in Resources */,
+				6ECDBAAB5BE42AB58694F587 /* динозавр-1.caf in Resources */,
+				D4928B68A193496FE053BB41 /* динозавр-2.caf in Resources */,
+				213CA458892E5BDE20149658 /* динозавр-3.caf in Resources */,
+				314934C4746633F93308A8BE /* динозавр-4.caf in Resources */,
+				7046105C3C0732C9092FA500 /* динозавр-5.caf in Resources */,
+				62835497E438BD7C9953DE92 /* домик-1.caf in Resources */,
+				C7348AC1045241071DD9472C /* домик-2.caf in Resources */,
+				DA0B602D2B23FF5712597285 /* домик-3.caf in Resources */,
+				85D27FF058390F63C898E6EE /* дым-1.caf in Resources */,
+				FA7368A8FC1DB8004151B91E /* дым-2.caf in Resources */,
+				016D9F28FDB603F88C89F080 /* жаба-1.caf in Resources */,
+				9EF6AB02DBBED55080AF530C /* жаба-2.caf in Resources */,
+				FF88E3B00E348FBE86B0DEA5 /* кактус-1.caf in Resources */,
+				B941EE63031DB22DEC674135 /* кактус-2.caf in Resources */,
+				4A409F53D303ACED55C0ACDD /* кактус-3.caf in Resources */,
+				89F2425C57FE5149E543430F /* кактус-4.caf in Resources */,
+				3B3B36ACE7CD1DD0A3B5218E /* камень-1.caf in Resources */,
+				0ED6FFAB80EBC8C8F7BDFE2D /* камень-2.caf in Resources */,
+				62D14C665FDC871F77343D7A /* камень-3.caf in Resources */,
+				5375B0A4B7F91B0E3F25D22F /* кот-1.caf in Resources */,
+				705EEB56712EF883AABEB7CA /* кот-2.caf in Resources */,
+				2B1A34DBF82852E78CBD48CA /* лава-1.caf in Resources */,
+				6D12F93174F78B721746EA30 /* лава-2.caf in Resources */,
+				33DAA96F6465563737554AE0 /* лама-1.caf in Resources */,
+				4821F3375CB3FDE5BE4B369E /* лама-2.caf in Resources */,
+				C919F2552BDC5FA40CDC4F4A /* лапша-1.caf in Resources */,
+				20F216A224BDD998480155EB /* лапша-2.caf in Resources */,
+				EFDDFA6FE60EA04711168E8E /* лапша-3.caf in Resources */,
+				EF0B2022E31FF09815BBE376 /* ласты-1.caf in Resources */,
+				DD6F0A7EA2F11B9FAEF4BD39 /* ласты-2.caf in Resources */,
+				CF49E46D53956BDAB034CCDB /* ласты-3.caf in Resources */,
+				7810D1B44DE1273FFFB46E9D /* лебедь-1.caf in Resources */,
+				315089667E1B453DE1AA82D9 /* лебедь-2.caf in Resources */,
+				91BFB827070310040F0290AD /* лебедь-3.caf in Resources */,
+				F9A0141B41EEE59D20CED2FD /* лейка-1.caf in Resources */,
+				2D9CE92B15A211DFE3559618 /* лейка-2.caf in Resources */,
+				32D95FC946A8F400C0D76378 /* лейка-3.caf in Resources */,
+				68B91E2E308DB05A52AB08A1 /* лес-1.caf in Resources */,
+				235C1C4E6F4691DDEFC97BFC /* лес-2.caf in Resources */,
+				FFA74241D8667A7B6190516D /* лимон-1.caf in Resources */,
+				EB7A74443D21A635AE777804 /* лимон-2.caf in Resources */,
+				B091DF008FF56197034E8E3A /* лимон-3.caf in Resources */,
+				3E9EDC60141887504699B3EF /* лужа-1.caf in Resources */,
+				DD2309208379CA4F07D4F188 /* лужа-2.caf in Resources */,
+				F1FDE8FC2693567A324F304A /* луна-1.caf in Resources */,
+				70DECF28DD2A50AD3417F650 /* луна-2.caf in Resources */,
+				661E5734CF8B17CC3548EAC7 /* лупа-1.caf in Resources */,
+				6C704063D6B14CFF4C1A9987 /* лупа-2.caf in Resources */,
+				E3B61677F5843029297167DC /* мак-1.caf in Resources */,
+				DB512D667FB34C0B1B3A8532 /* мак-2.caf in Resources */,
+				0768F838409197CE7CEC5B1B /* машина-1.caf in Resources */,
+				2703B01EB31EC9C71A05F54A /* машина-2.caf in Resources */,
+				B3F75C0F07DD286A420C97D8 /* машина-3.caf in Resources */,
+				E4F742D030EF3C19AB0E455D /* мороженое-1.caf in Resources */,
+				6CD16A8EB1885373063DDFAE /* мороженое-2.caf in Resources */,
+				E32325D43F490CB4777F77B3 /* мороженое-3.caf in Resources */,
+				F525A5579A506687120A5DE1 /* мороженое-4.caf in Resources */,
+				685E1CCD6C6AEA636C45C2F1 /* мороженое-5.caf in Resources */,
+				B321A1C1D9E5A6CD4272024A /* музыка-1.caf in Resources */,
+				BB733601A24F5976AE175D7F /* музыка-2.caf in Resources */,
+				176B982A472DFF01511102C5 /* музыка-3.caf in Resources */,
+				0C5286EB83CA0345EF0DD745 /* нога-1.caf in Resources */,
+				72575A06076CA6AE56A5753E /* нога-2.caf in Resources */,
+				B62D2BCAB16067DBDFC3274F /* оса-1.caf in Resources */,
+				FC7026A06CB3B26A81A037CD /* оса-2.caf in Resources */,
+				F830C7620A38274EAD59CA4C /* очки-1.caf in Resources */,
+				A4C6CD6F96F4C223A9E060F3 /* очки-2.caf in Resources */,
+				3A468AD732AF65233343C9D7 /* очки-3.caf in Resources */,
+				5CF3D3FC59AD47F85BE96BE8 /* палка-1.caf in Resources */,
+				F32572EB204FBC54229FFAE6 /* палка-2.caf in Resources */,
+				4BE62EA82FC721C575A5237A /* палка-3.caf in Resources */,
+				867F923EB9879D80FF2E4D31 /* папа-1-2.caf in Resources */,
+				EFA4927CE11DD1ECF2F75A25 /* папа-1.caf in Resources */,
+				83CAF0BEA88E7F9696AA7D68 /* папа-2-2.caf in Resources */,
+				6F733D5277678ABB304FB251 /* папа-2.caf in Resources */,
+				0820F7B32FC2D41D1A60E16D /* пар-1.caf in Resources */,
+				D46D4AA47EF385CFCED9D369 /* пар-2.caf in Resources */,
+				E00D8D52E8C21A1355EAE682 /* письмо-1.caf in Resources */,
+				C30A28D8DC2565C79F9C9937 /* письмо-2.caf in Resources */,
+				4C2DC294A03C709D4EDE6A7F /* письмо-3.caf in Resources */,
+				41520316AFE2F1D3CA97C6A4 /* подушка-1.caf in Resources */,
+				5B79F5D04401B9EC55DC44B4 /* подушка-2.caf in Resources */,
+				FA22661F18565701A7597FBC /* подушка-3.caf in Resources */,
+				9864D3A6EFF11BCC55E1636B /* подушка-4.caf in Resources */,
+				4DEBCBA3E8253B7BEA5B73AE /* поезд-1.caf in Resources */,
+				6B69439566C0D9EA358094FA /* поезд-2.caf in Resources */,
+				F5C062066DF358E106085EFC /* поезд-3.caf in Resources */,
+				F479BA6917F9BFB78D9B5E0F /* поезд-4.caf in Resources */,
+				34F28582D922091F7969F1F2 /* пожар-1.caf in Resources */,
+				10A2634FC78E727BE6BA6811 /* пожар-2.caf in Resources */,
+				29A735E013A65611D13E7C91 /* пожар-3.caf in Resources */,
+				6F3E753683E4DB85217B6493 /* пони-1.caf in Resources */,
+				2A6573CF940FB3B470E181F1 /* пони-2.caf in Resources */,
+				2D344C41DEB078B82CC0397D /* посуда-1.caf in Resources */,
+				99430693E8CC1E552866D7B3 /* посуда-2.caf in Resources */,
+				64A8F0D140BB48D8D4B62A59 /* посуда-3.caf in Resources */,
+				325EF543401A893E31D97D69 /* почта-1.caf in Resources */,
+				10C5379E510A71FEB893C452 /* почта-2.caf in Resources */,
+				E2B8A1C8CD4BD6E82E3907A4 /* почта-3.caf in Resources */,
+				E9FEEF6305A0B7D3989FD328 /* рука-1.caf in Resources */,
+				ACE8641CDF2C02AF50EF29EE /* рука-2.caf in Resources */,
+				394ABECE63281F2709117E7E /* ручка-1.caf in Resources */,
+				926B29B3DB5305CB12AB68C3 /* ручка-2.caf in Resources */,
+				28D3BE5FC6C9FB9048729FE7 /* ручка-3.caf in Resources */,
+				8FC3C2F2EB97158446FCA3AB /* рыба-1.caf in Resources */,
+				769DEA32D383EE11596086C5 /* рыба-2.caf in Resources */,
+				6C4DC71A2CDBACCA45BB3494 /* салют-1.caf in Resources */,
+				39C44DFB6D434B7B20CF324F /* салют-2.caf in Resources */,
+				CFDF03D6C3F6D8430AB8190A /* салют-3.caf in Resources */,
+				26EB37FF3E2A661AFA782F14 /* санки-1.caf in Resources */,
+				F1EA69AD3ED10339E2B2EE89 /* санки-2.caf in Resources */,
+				F531A862A9F288E3BA207943 /* санки-3.caf in Resources */,
+				8678BB046A3F918AC79F1DE7 /* сапог-1.caf in Resources */,
+				CF5ED426E4493DD0A995EFA3 /* сапог-2.caf in Resources */,
+				3E9FDACCA4E757BF7A3BC2BF /* сапог-3.caf in Resources */,
+				A10B1944BF8081786947FFBA /* сатурн-1.caf in Resources */,
+				0196E5C592078EFDB7E66892 /* сатурн-2.caf in Resources */,
+				5584A87D04A5608421C7A47C /* сатурн-3.caf in Resources */,
+				14808C7595AD112DE68C1CDB /* сатурн-4.caf in Resources */,
+				300686C4635F06190C04CBF1 /* сачок-1.caf in Resources */,
+				BA7A84B6DCA59DA0176D9C47 /* сачок-2.caf in Resources */,
+				A1D46A9568091E138590F40D /* сачок-3.caf in Resources */,
+				C96F15210CC6103D6378109C /* снеговик-1.caf in Resources */,
+				34F77E42370479B829696CB9 /* снеговик-2.caf in Resources */,
+				E402F0C9916134CE06419286 /* снеговик-3.caf in Resources */,
+				1EA07BC51E34811060175C3E /* снеговик-4.caf in Resources */,
+				CC981DF16618BB331110BE2B /* снеговик-5.caf in Resources */,
+				CB10A8053E55E1A22E6A1F4F /* собака-1.caf in Resources */,
+				BB6A1B0606965921DEDB43F5 /* собака-2.caf in Resources */,
+				E2BBDA3E3669F35C4DA998F9 /* собака-3.caf in Resources */,
+				126A68600A9216B5ABEC3300 /* сова-1.caf in Resources */,
+				859F74DE6E8110B388C8C2DE /* сова-2.caf in Resources */,
+				34CAB7BDA3EAC36BDE8B5DFA /* сок-1.caf in Resources */,
+				6FB7B769F5357627033DBB45 /* сок-2.caf in Resources */,
+				35336354DE0224F9E919A4E1 /* соль-1.caf in Resources */,
+				20F407D52C3C5476A06A8686 /* соль-2.caf in Resources */,
+				99DD1103333B0CDFB2FC029F /* сумка-1.caf in Resources */,
+				9A76B9D298C8F2A88E589113 /* сумка-2.caf in Resources */,
+				490B2EE8F6C26426D47786AD /* сумка-3.caf in Resources */,
+				5A6B3E05107036E6BC372EE4 /* суп-1.caf in Resources */,
+				15E17FBADCD2488AF671764C /* суп-2.caf in Resources */,
+				69831E4E554CCE6129C8D3B2 /* туфли-1.caf in Resources */,
+				EA048474E7DBCD5C8B2FFDB3 /* туфли-2.caf in Resources */,
+				8E1D2AE3559253C9ADEA9895 /* туфли-3.caf in Resources */,
+				A9FEEE6266E6FE48CFED0594 /* туча-1.caf in Resources */,
+				D17F486DFB17709AD886527F /* туча-2.caf in Resources */,
+				8386D1A5192C6347AEADC306 /* усы-1.caf in Resources */,
+				6C8E33E363A1DFA30C31E777 /* усы-2.caf in Resources */,
+				FA8A7A9B67720CC1F94DB574 /* факел-1.caf in Resources */,
+				7D40681D814C3401AC52AFD3 /* факел-2.caf in Resources */,
+				6F067C91126F237DB4FE28C3 /* факел-3.caf in Resources */,
+				CCACEEE5CD3D1C9B46715075 /* фея-1.caf in Resources */,
+				FA63EF0131BB52B781206C25 /* фея-2.caf in Resources */,
+				BA6C72B9C6C965B1C3437679 /* шея-1.caf in Resources */,
+				C340610DED64245C56CC18B7 /* шея-2.caf in Resources */,
+				EA13E982B1985A69EE5A905F /* юбка-1.caf in Resources */,
+				54B17AE9C6557E0D27812719 /* юбка-2.caf in Resources */,
+				AB9DAE6BD651E2B8CEF5BBD6 /* юбка-3.caf in Resources */,
+				905B4CE7AFEAE2AAC63A7206 /* яма-1.caf in Resources */,
+				8162192B61632F0A0F2AB18B /* яма-2.caf in Resources */,
+				7E515EB93DE4D50F50E75A73 /* ёж-1.caf in Resources */,
+				14B04F415B2E140E2D5F988D /* ёж-2.caf in Resources */,
+				3A011C88D02D74A9309D14A0 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -815,6 +1521,7 @@
 				C77D3A20676BDDA2898FD12C /* Assets+App.swift in Sources */,
 				C8E259168D0024ABF27C7AD7 /* Bundle+App.swift in Sources */,
 				513FD1904BEBC178482158A4 /* Fonts+App.swift in Sources */,
+				6FDB99F16F566EFDF544D021 /* Strings+App.swift in Sources */,
 				09713BF4A04257BC64D324BA /* AppDelegate.swift in Sources */,
 				C33D1A865C5F99B5ECDC1F03 /* AudioPlayer.swift in Sources */,
 				45D3F483A9962C3B28A0A5E8 /* Curry.swift in Sources */,
@@ -826,7 +1533,6 @@
 				64841883DA5E8B4C8F61EDB6 /* ViewGame.swift in Sources */,
 				A09A36CF130123787C217CA1 /* GameTestData.swift in Sources */,
 				0A9FEF6D92FD51EC3A5D5E97 /* Parser.swift in Sources */,
-				88A331E0BE92DD2FBF1A3804 /* String+Extensions.swift in Sources */,
 				A05C5F4E5EFAF58CDC84E1CC /* Palette.swift in Sources */,
 				B294ACFE5158D1E276BBACA3 /* Size.swift in Sources */,
 			);
@@ -839,9 +1545,9 @@
 				1F5C778A71E6D295FA09A281 /* Bundle+Core.swift in Sources */,
 				862BCF49FB14F9A01AFBBC84 /* Array+Extensions.swift in Sources */,
 				8B2CC294FCCFE5016553275B /* Collection+Extensions.swift in Sources */,
+				46B469341568E387FAF2DB85 /* Image+Trim.swift in Sources */,
 				2AAC9C9A92A5E5B16F73D48F /* Int+Extensions.swift in Sources */,
 				19232CE4629AC8D4156CA92E /* String+Extensions.swift in Sources */,
-				395DF514264029ED00DAFC42 /* Image+Trim.swift in Sources */,
 				B993307173A3ACF16E1A7ABA /* RemoteData.swift in Sources */,
 				9FAF2392A6428D5EF2F5AFA8 /* Store.swift in Sources */,
 			);
@@ -851,8 +1557,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				395DF51226400D5100DAFC42 /* ParserTests.swift in Sources */,
+				6343114E42A48CAEC51E0AD5 /* ParserTests.swift in Sources */,
 				0352E5C252FBDBE470F908DB /* Resources.swift in Sources */,
+				A04D8E4402FB6170FDCB9F77 /* Snapshots.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -889,7 +1596,8 @@
 		015B3EE6E28166B492855ABB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D7267CDDC58B9A279FF10404 /* Base */,
+				0AD06DCA83A7CEFCDCA3E7D9 /* ru */,
+				2834ED6D82876BD0F88CCFCC /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -902,19 +1610,20 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "$(SRCROOT)/Derived/InfoPlists/AppTests.plist";
+				INFOPLIST_FILE = Derived/InfoPlists/AppTests.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = name.domain.youreader.appTests;
+				PRODUCT_BUNDLE_IDENTIFIER = games.lemur.youreader.tests;
 				PRODUCT_NAME = AppTests;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.3.2;
+				SWIFT_VERSION = 5.4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App.app/App";
 				TEST_TARGET_NAME = App;
@@ -947,6 +1656,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1003,6 +1713,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1032,22 +1743,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = Q6X4QSG356;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Derived/InfoPlists/App.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				INFOPLIST_FILE = Derived/InfoPlists/App.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = name.domain.youreader.app;
+				PRODUCT_BUNDLE_IDENTIFIER = games.lemur.youreader;
 				PRODUCT_NAME = App;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.3.2;
+				SWIFT_VERSION = 5.4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1057,20 +1767,21 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "$(SRCROOT)/Derived/InfoPlists/AppTests.plist";
+				INFOPLIST_FILE = Derived/InfoPlists/AppTests.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = name.domain.youreader.appTests;
+				PRODUCT_BUNDLE_IDENTIFIER = games.lemur.youreader.tests;
 				PRODUCT_NAME = AppTests;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.3.2;
+				SWIFT_VERSION = 5.4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App.app/App";
 				TEST_TARGET_NAME = App;
@@ -1086,22 +1797,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Derived/InfoPlists/Core.plist";
+				INFOPLIST_FILE = Derived/InfoPlists/Core.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = name.domain.youreader.core;
+				PRODUCT_BUNDLE_IDENTIFIER = games.lemur.youreader.core;
 				PRODUCT_NAME = Core;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.3.2;
+				SWIFT_VERSION = 5.4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1117,15 +1828,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Derived/InfoPlists/UIComponents.plist";
+				INFOPLIST_FILE = Derived/InfoPlists/UIComponents.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = name.domain.youreader.appUI;
+				PRODUCT_BUNDLE_IDENTIFIER = games.lemur.youreader.appUI;
 				PRODUCT_NAME = UIComponents;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1133,7 +1844,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.3.2;
+				SWIFT_VERSION = 5.4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1149,22 +1860,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Derived/InfoPlists/UIComponents.plist";
+				INFOPLIST_FILE = Derived/InfoPlists/UIComponents.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = name.domain.youreader.appUI;
+				PRODUCT_BUNDLE_IDENTIFIER = games.lemur.youreader.appUI;
 				PRODUCT_NAME = UIComponents;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.3.2;
+				SWIFT_VERSION = 5.4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1176,21 +1887,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = Q6X4QSG356;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Derived/InfoPlists/App.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				INFOPLIST_FILE = Derived/InfoPlists/App.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = name.domain.youreader.app;
+				PRODUCT_BUNDLE_IDENTIFIER = games.lemur.youreader;
 				PRODUCT_NAME = App;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.3.2;
+				SWIFT_VERSION = 5.4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1204,15 +1914,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Derived/InfoPlists/Core.plist";
+				INFOPLIST_FILE = Derived/InfoPlists/Core.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = name.domain.youreader.core;
+				PRODUCT_BUNDLE_IDENTIFIER = games.lemur.youreader.core;
 				PRODUCT_NAME = Core;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1220,7 +1930,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.3.2;
+				SWIFT_VERSION = 5.4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1294,9 +2004,21 @@
 				minimumVersion = 1.1.5;
 			};
 		};
+		309587E0EA09BC8ED669A1AD /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		24E67CF246C927E0CCF09F7F /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SnapshotTesting;
+		};
 		33997B073A480E9B4B101A0C /* DifferenceKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DifferenceKit;

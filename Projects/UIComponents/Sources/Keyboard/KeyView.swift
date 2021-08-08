@@ -16,7 +16,6 @@ public final class KeyView: Button {
 
     public override func setupViews() {
         containerView.layer.cornerRadius = Space.space01
-        containerView.layer.cornerCurve = .continuous
         containerView.backgroundColor = .white
         containerView.alpha = 0.8
         containerView.isUserInteractionEnabled = false

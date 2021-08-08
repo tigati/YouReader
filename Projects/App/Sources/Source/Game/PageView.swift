@@ -42,20 +42,9 @@ final class PageView: View {
             make.leading.trailing.equalToSuperview().inset(Size.m)
         }
         
-        dummyLabel.snp.makeConstraints { make in
-            make.top.equalTo(imageView.snp.bottom).offset(Size.l)
-            make.leading.trailing.equalToSuperview().inset(Size.m)
-        }
-    
-        dummyLabel.setContentCompressionResistancePriority(.defaultHigh, for: .vertical)
-        
-        typeLabel.snp.makeConstraints { make in
-            make.edges.equalTo(dummyLabel)
-        }
-        
         keyboardView.snp.makeConstraints { make in
-            make.top.equalTo(dummyLabel.snp.bottom).offset(Size.xxxl)
-            make.bottom.equalTo(safeAreaLayoutGuide.snp.bottom).inset(Size.xxl)
+            make.top.equalTo(imageView.snp.bottom).offset(Size.xl)
+            make.bottom.equalTo(safeAreaLayoutGuide.snp.bottom).inset(Size.xxxl)
             make.leading.trailing.equalToSuperview().inset(Size.m)
         }
     }

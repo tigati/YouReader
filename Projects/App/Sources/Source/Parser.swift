@@ -84,11 +84,11 @@ extension Character {
 
 let phrases: [Phrase] = [
     .init(text: "ёж", image: "Gulka_046", background: Palette.red),
-    .init(text: "кот", image: "Gulka_007", background: Palette.red),
+    .init(text: "кот", image: "Gulka_007", background: Palette.blue),
     .init(text: "суп", image: "Gulka_005", background: Palette.green),
+    .init(text: "лес", image: "Gulka_057", background: Palette.yellow),
     .init(text: "шея", image: "Gulka_029", background: Palette.red),
     .init(text: "сок", image: "Gulka_028", background: Palette.yellow),
-    .init(text: "лес", image: "Gulka_057", background: Palette.blue),
     .init(text: "фея", image: "Gulka_037", background: Palette.red),
     .init(text: "усы", image: "Gulka_038", background: Palette.yellow),
     .init(text: "яма", image: "Gulka_047", background: Palette.green),
@@ -97,103 +97,58 @@ let phrases: [Phrase] = [
     .init(text: "мак", image: "Gulka_051", background: Palette.yellow),
     .init(text: "оса", image: "Gulka_054", background: Palette.red),
     
-    .init(text: "сатурн", image: "Gulka_010", background: Palette.red),
-    .init(text: "юбка", image: "Gulka_010", background: Palette.red),
-    
-    .init(text: "сапог", image: "Gulka_011", background: Palette.green),
-    .init(text: "камень", image: "Gulka_011", background: Palette.green),
-    
     .init(text: "рыба", image: "Gulka_009", background: Palette.green),
-    .init(text: "сачок", image: "Gulka_009", background: Palette.blue),
-    
-    .init(text: "салют", image: "Gulka_008", background: Palette.red),
-    
-    .init(text: "сумка", image: "Gulka_007", background: Palette.red),
-    
-    .init(text: "туфли", image: "Gulka_006", background: Palette.red),
-
-    
     .init(text: "туча", image: "Gulka_004", background: Palette.blue),
-    
-    .init(text: "санки", image: "Gulka_003", background: Palette.blue),
-    
-    .init(text: "пожар", image: "Gulka_001", background: Palette.blue),
-    
-    .init(text: "лебедь", image: "Gulka_002", background: Palette.yellow),
-    
-    .init(text: "почта", image: "Gulka_032", background: Palette.red),
-    .init(text: "письмо", image: "Gulka_032", background: Palette.red),
-    
-    .init(text: "поезд", image: "Gulka_033", background: Palette.green),
-    .init(text: "билет", image: "Gulka_033", background: Palette.green),
-    
-    .init(text: "подушка", image: "Gulka_035", background: Palette.red),
-    
-    .init(text: "посуда", image: "Gulka_034", background: Palette.yellow),
-    
     .init(text: "пони", image: "Gulka_014", background: Palette.yellow),
-    
-    .init(text: "лимон", image: "Gulka_017", background: Palette.yellow),
-    
     .init(text: "лужа", image: "Gulka_015", background: Palette.blue),
-    
     .init(text: "рука", image: "Gulka_029", background: Palette.red),
-    
     .init(text: "луна", image: "Gulka_012", background: Palette.yellow),
-    
-    .init(text: "собака", image: "Gulka_030", background: Palette.green),
-    
-    .init(text: "музыка", image: "Gulka_027", background: Palette.yellow),
-    
     .init(text: "соль", image: "Gulka_026", background: Palette.red),
-    
-    .init(text: "ручка", image: "Gulka_025", background: Palette.blue),
-    
     .init(text: "сова", image: "Gulka_024", background: Palette.green),
-    
     .init(text: "лава", image: "Gulka_022", background: Palette.yellow),
-    
-    .init(text: "лапша", image: "Gulka_023", background: Palette.red),
-    
+    .init(text: "лупа", image: "Gulka_031", background: Palette.blue),
+    .init(text: "жаба", image: "Gulka_056", background: Palette.green),
+    .init(text: "нога", image: "Gulka_050", background: Palette.yellow),
+    .init(text: "папа", image: "Gulka_053", background: Palette.red),
     .init(text: "лама", image: "Gulka_021", background: Palette.yellow),
     
+    .init(text: "юбка", image: "Gulka_010", background: Palette.red),
+    .init(text: "сапог", image: "Gulka_011", background: Palette.green),
+    .init(text: "сачок", image: "Gulka_009", background: Palette.blue),
+    .init(text: "салют", image: "Gulka_008", background: Palette.red),
+    .init(text: "сумка", image: "Gulka_007", background: Palette.blue),
+    .init(text: "туфли", image: "Gulka_006", background: Palette.red),
+    .init(text: "санки", image: "Gulka_003", background: Palette.blue),
+    .init(text: "почта", image: "Gulka_032", background: Palette.red),
+    .init(text: "билет", image: "Gulka_033", background: Palette.green),
+    .init(text: "лимон", image: "Gulka_017", background: Palette.yellow),
+    .init(text: "ручка", image: "Gulka_025", background: Palette.blue),
+    .init(text: "лапша", image: "Gulka_023", background: Palette.red),
     .init(text: "ласты", image: "Gulka_020", background: Palette.blue),
-    
     .init(text: "факел", image: "Gulka_019", background: Palette.yellow),
-    
+    .init(text: "пожар", image: "Gulka_001", background: Palette.blue),
     .init(text: "лейка", image: "Gulka_018", background: Palette.green),
-    
-    .init(text: "лупа", image: "Gulka_031", background: Palette.blue),
-    
-    .init(text: "жаба", image: "Gulka_056", background: Palette.yellow),
     .init(text: "палка", image: "Gulka_056", background: Palette.yellow),
-    
-    .init(text: "снеговик", image: "Gulka_036", background: Palette.blue),
-    
-    .init(text: "динозавр", image: "Gulka_039", background: Palette.yellow),
-    
     .init(text: "ванна", image: "Gulka_040", background: Palette.blue),
-    
-    .init(text: "машина", image: "Gulka_041", background: Palette.green),
-    
     .init(text: "очки", image: "Gulka_042", background: Palette.red),
-    
-    .init(text: "вампир", image: "Gulka_043", background: Palette.blue),
-    
-    .init(text: "мороженое", image: "Gulka_044", background: Palette.yellow),
-    
-    
-    
-    .init(text: "нога", image: "Gulka_050", background: Palette.yellow),
-    
-    
+    .init(text: "домик", image: "Gulka_055", background: Palette.yellow),
+    .init(text: "поезд", image: "Gulka_033", background: Palette.green),
     
     .init(text: "кактус", image: "Gulka_052", background: Palette.blue),
+    .init(text: "сатурн", image: "Gulka_010", background: Palette.red),
+    .init(text: "камень", image: "Gulka_011", background: Palette.green),
+    .init(text: "лебедь", image: "Gulka_002", background: Palette.yellow),
+    .init(text: "письмо", image: "Gulka_032", background: Palette.red),
+    .init(text: "посуда", image: "Gulka_034", background: Palette.yellow),
+    .init(text: "собака", image: "Gulka_030", background: Palette.green),
+    .init(text: "музыка", image: "Gulka_027", background: Palette.yellow),
+    .init(text: "машина", image: "Gulka_041", background: Palette.green),
+    .init(text: "вампир", image: "Gulka_043", background: Palette.blue),
     
-    .init(text: "папа", image: "Gulka_053", background: Palette.red),
-    
-    .init(text: "домик", image: "Gulka_055", background: Palette.green),
-    
+    .init(text: "подушка", image: "Gulka_035", background: Palette.yellow),
+    .init(text: "снеговик", image: "Gulka_036", background: Palette.blue),
+    .init(text: "динозавр", image: "Gulka_039", background: Palette.yellow),
+    .init(text: "мороженое", image: "Gulka_044", background: Palette.blue),
     
 ]
 
